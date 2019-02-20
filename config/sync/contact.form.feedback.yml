@@ -1,0 +1,14 @@
+uuid: 21e24702-eae4-48f8-9c96-b7f506e4f68d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - develand@collabralink.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

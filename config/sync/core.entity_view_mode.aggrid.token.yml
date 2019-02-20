@@ -1,0 +1,10 @@
+uuid: 12a26118-fa66-450a-9a49-8f9d390792df
+langcode: en
+status: true
+dependencies:
+  module:
+    - aggrid
+id: aggrid.token
+label: Token
+targetEntityType: aggrid
+cache: true

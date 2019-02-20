@@ -1,0 +1,14 @@
+uuid: f4a3e3b9-ea00-4c17-aac0-bcb49b5d80f3
+name: NRS
+mail: develand@collabralink.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

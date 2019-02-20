@@ -1,0 +1,37 @@
+uuid: 3ad0f6f2-8946-4c32-85e3-2eb14cdebd82
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_spreadsheet
+    - node.type.page
+  module:
+    - aggrid
+    - text
+    - user
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_spreadsheet:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: aggrid_formatter_type
+    region: content
+  links:
+    weight: 101
+    region: content
+hidden: {  }
