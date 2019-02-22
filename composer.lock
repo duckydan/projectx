@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f93462392b3015444e67c5bb94a4eeff",
+    "content-hash": "0749ca641666d4e3422e894442c9aa4c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -124,16 +124,16 @@
         },
         {
             "name": "caxy/php-htmldiff",
-            "version": "v0.1.8",
+            "version": "v0.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caxy/php-htmldiff.git",
-                "reference": "6f39bc3717f1d3f915542e431c6c30e43bfe6b7c"
+                "reference": "4bad5c6a4ecc76954d37764e6a29273b6b7bf1f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caxy/php-htmldiff/zipball/6f39bc3717f1d3f915542e431c6c30e43bfe6b7c",
-                "reference": "6f39bc3717f1d3f915542e431c6c30e43bfe6b7c",
+                "url": "https://api.github.com/repos/caxy/php-htmldiff/zipball/4bad5c6a4ecc76954d37764e6a29273b6b7bf1f8",
+                "reference": "4bad5c6a4ecc76954d37764e6a29273b6b7bf1f8",
                 "shasum": ""
             },
             "require": {
@@ -176,7 +176,7 @@
                 "diff",
                 "html"
             ],
-            "time": "2019-01-15T19:49:36+00:00"
+            "time": "2019-02-20T18:52:14+00:00"
         },
         {
             "name": "chi-teck/drupal-code-generator",
@@ -2786,16 +2786,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.6.9",
+            "version": "8.6.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "cac12e0ec19d5c6fa53778522b3ff4c542f86c8d"
+                "reference": "59568ac02948cf075ee8543e6c6d4386ad8daec1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/cac12e0ec19d5c6fa53778522b3ff4c542f86c8d",
-                "reference": "cac12e0ec19d5c6fa53778522b3ff4c542f86c8d",
+                "url": "https://api.github.com/repos/drupal/core/zipball/59568ac02948cf075ee8543e6c6d4386ad8daec1",
+                "reference": "59568ac02948cf075ee8543e6c6d4386ad8daec1",
                 "shasum": ""
             },
             "require": {
@@ -3021,21 +3021,21 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2019-02-08T12:21:40+00:00"
+            "time": "2019-02-20T18:35:01+00:00"
         },
         {
             "name": "drupal/ctools",
-            "version": "3.1.0",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/ctools",
-                "reference": "8.x-3.1"
+                "reference": "8.x-3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.1.zip",
-                "reference": "8.x-3.1",
-                "shasum": "7056df469624ec3943c62ebe613dbfcb3171dcd1"
+                "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.2.zip",
+                "reference": "8.x-3.2",
+                "shasum": "d6da87239b64ba708a5977e7b33b1e009e36b091"
             },
             "require": {
                 "drupal/core": "^8.5"
@@ -3046,8 +3046,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.1",
-                    "datestamp": "1549603381",
+                    "version": "8.x-3.2",
+                    "datestamp": "1550728386",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3405,17 +3405,17 @@
         },
         {
             "name": "drupal/fontawesome",
-            "version": "2.11.0",
+            "version": "2.12.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/fontawesome",
-                "reference": "8.x-2.11"
+                "reference": "8.x-2.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/fontawesome-8.x-2.11.zip",
-                "reference": "8.x-2.11",
-                "shasum": "b09ffea10f7e2f9d15bc3326c5d05cbc76d57fba"
+                "url": "https://ftp.drupal.org/files/projects/fontawesome-8.x-2.12.zip",
+                "reference": "8.x-2.12",
+                "shasum": "ed8ea9c5354201db2f0eac2bf8f3a4c46403f307"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -3426,8 +3426,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.11",
-                    "datestamp": "1550073481",
+                    "version": "8.x-2.12",
+                    "datestamp": "1550692543",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4419,6 +4419,54 @@
             "homepage": "https://www.drupal.org/project/username_enumeration_prevention",
             "support": {
                 "source": "http://cgit.drupalcode.org/username_enumeration_prevention"
+            }
+        },
+        {
+            "name": "drupal/uswds",
+            "version": "1.0.0-beta3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/uswds",
+                "reference": "8.x-1.0-beta3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/uswds-8.x-1.0-beta3.zip",
+                "reference": "8.x-1.0-beta3",
+                "shasum": "f220e5edc916417c9215a54ac8fcd4247669a855"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta3",
+                    "datestamp": "1515004684",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "brockfanning",
+                    "homepage": "https://www.drupal.org/user/709486"
+                }
+            ],
+            "description": "Drupal theme for the U.S. Web Design Standards library.",
+            "homepage": "https://www.drupal.org/project/uswds",
+            "support": {
+                "source": "http://cgit.drupalcode.org/uswds",
+                "issues": "https://www.drupal.org/project/issues/uswds?categories=All"
             }
         },
         {
@@ -8192,24 +8240,24 @@
         },
         {
             "name": "zaporylie/composer-drupal-optimizations",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zaporylie/composer-drupal-optimizations.git",
-                "reference": "cc5eb9f0b5fa664885765748ce5190c1de7d2571"
+                "reference": "173c198fd7c9aefa5e5b68cd755ee63eb0abf7e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zaporylie/composer-drupal-optimizations/zipball/cc5eb9f0b5fa664885765748ce5190c1de7d2571",
-                "reference": "cc5eb9f0b5fa664885765748ce5190c1de7d2571",
+                "url": "https://api.github.com/repos/zaporylie/composer-drupal-optimizations/zipball/173c198fd7c9aefa5e5b68cd755ee63eb0abf7e8",
+                "reference": "173c198fd7c9aefa5e5b68cd755ee63eb0abf7e8",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.1",
-                "drupal/core": "^8.5"
+                "composer-plugin-api": "^1.1"
             },
             "require-dev": {
-                "composer/composer": "^1.6"
+                "composer/composer": "^1.6",
+                "phpunit/phpunit": "^6"
             },
             "type": "composer-plugin",
             "extra": {
@@ -8231,7 +8279,7 @@
                 }
             ],
             "description": "Composer plugin to improve composer performance for Drupal projects",
-            "time": "2018-07-15T18:04:58+00:00"
+            "time": "2019-02-20T10:00:17+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -10583,16 +10631,16 @@
         },
         {
             "name": "webflo/drupal-core-require-dev",
-            "version": "8.6.9",
+            "version": "8.6.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webflo/drupal-core-require-dev.git",
-                "reference": "c083ddd802bda504d836dc0d4fea44cf2e6f191f"
+                "reference": "a3ec86723a2d753c020bfa995281c3cefa0cbb89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webflo/drupal-core-require-dev/zipball/c083ddd802bda504d836dc0d4fea44cf2e6f191f",
-                "reference": "c083ddd802bda504d836dc0d4fea44cf2e6f191f",
+                "url": "https://api.github.com/repos/webflo/drupal-core-require-dev/zipball/a3ec86723a2d753c020bfa995281c3cefa0cbb89",
+                "reference": "a3ec86723a2d753c020bfa995281c3cefa0cbb89",
                 "shasum": ""
             },
             "require": {
@@ -10600,7 +10648,7 @@
                 "behat/mink-goutte-driver": "^1.2",
                 "behat/mink-selenium2-driver": "1.3.x-dev",
                 "drupal/coder": "^8.2.12",
-                "drupal/core": "8.6.9",
+                "drupal/core": "8.6.10",
                 "jcalderonzumba/gastonjs": "^1.0.2",
                 "jcalderonzumba/mink-phantomjs-driver": "^0.3.1",
                 "mikey179/vfsstream": "^1.2",
@@ -10616,7 +10664,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "require-dev dependencies from drupal/core",
-            "time": "2019-02-08T12:31:37+00:00"
+            "time": "2019-02-20T20:01:42+00:00"
         }
     ],
     "aliases": [],
@@ -10631,6 +10679,7 @@
         "drupal/diff": 5,
         "drupal/guardr_core": 15,
         "drupal/session_limit": 10,
+        "drupal/uswds": 10,
         "drupal/yaml_content": 15
     },
     "prefer-stable": true,
