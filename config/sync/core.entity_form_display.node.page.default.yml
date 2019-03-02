@@ -4,12 +4,20 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_form
     - field.field.node.page.field_spreadsheet
     - node.type.page
   module:
     - aggrid
+    - field_layout
+    - layout_discovery
     - path
     - text
+    - webform
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: sb0qCkzU_8mNq29NehYAU8jCBXWPLeX0UN8sYFVGVcw
 id: node.page.default
@@ -32,6 +40,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_form:
+    weight: 122
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
   field_spreadsheet:
     weight: 121
     settings: {  }

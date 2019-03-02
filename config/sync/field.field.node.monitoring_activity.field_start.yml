@@ -1,0 +1,21 @@
+uuid: 441c1365-00c3-42e9-9dc8-a21cbf152d6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_start
+    - node.type.monitoring_activity
+  module:
+    - datetime
+id: node.monitoring_activity.field_start
+field_name: field_start
+entity_type: node
+bundle: monitoring_activity
+label: Start
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,21 @@
+uuid: efafe74d-1cfd-4109-ad16-0aa12f55df55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_end
+    - node.type.monitoring_activity
+  module:
+    - datetime
+id: node.monitoring_activity.field_end
+field_name: field_end
+entity_type: node
+bundle: monitoring_activity
+label: End
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

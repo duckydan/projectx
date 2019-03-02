@@ -1,0 +1,209 @@
+uuid: 94721515-9e40-4e25-9dd0-ad60bf97663b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.monitoring_activity.body
+    - field.field.node.monitoring_activity.field_agency_name
+    - field.field.node.monitoring_activity.field_end
+    - field.field.node.monitoring_activity.field_fiscal_year
+    - field.field.node.monitoring_activity.field_region
+    - field.field.node.monitoring_activity.field_start
+    - field.field.node.monitoring_activity.field_state
+    - field.field.node.monitoring_activity.field_visit_type
+    - node.type.monitoring_activity
+  module:
+    - datetime
+    - field_group
+    - field_layout
+    - layout_discovery
+    - path
+    - text
+third_party_settings:
+  field_group:
+    group_tabs:
+      children:
+        - field_start
+        - field_end
+      parent_name: ''
+      weight: 11
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: vertical
+      label: Tabs
+      region: middle
+    group_details:
+      children:
+        - field_fiscal_year
+        - body
+      parent_name: ''
+      weight: 0
+      format_type: details
+      format_settings:
+        id: ''
+        classes: ''
+        open: true
+        required_fields: true
+      label: Details
+      region: first_above
+    group_accordion_item:
+      children:
+        - field_agency_name
+      parent_name: ''
+      weight: 12
+      format_type: accordion_item
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        required_fields: true
+        description: ''
+      label: 'Accordion Item'
+      region: middle
+    group_aaaaa:
+      children: {  }
+      parent_name: ''
+      weight: 13
+      format_type: accordion_item
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        required_fields: true
+        description: ''
+      label: AAAAA
+      region: middle
+    group_html_element:
+      children: {  }
+      parent_name: ''
+      weight: 14
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: ''
+        element: div
+        show_label: true
+        label_element: h3
+        required_fields: true
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'HTML Element'
+      region: middle
+  field_layout:
+    id: layout_twocol_bricks
+    settings: {  }
+id: node.monitoring_activity.default
+targetEntityType: node
+bundle: monitoring_activity
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: first_above
+  created:
+    type: datetime_timestamp
+    weight: 6
+    region: middle
+    settings: {  }
+    third_party_settings: {  }
+  field_agency_name:
+    weight: 13
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: middle
+  field_end:
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: middle
+  field_fiscal_year:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: first_above
+  field_region:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: second_above
+  field_start:
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: middle
+  field_state:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: middle
+  field_visit_type:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: middle
+  path:
+    type: path
+    weight: 9
+    region: middle
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 7
+    region: middle
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 10
+    region: middle
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 8
+    region: middle
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 2
+    region: second_above
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 3
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: middle
+    third_party_settings: {  }
+hidden: {  }

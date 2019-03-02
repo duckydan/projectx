@@ -1,0 +1,30 @@
+uuid: 6fcf6056-d1e0-49bf-bc28-290e24692dfd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_visit_type
+field_name: field_visit_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Visit type 1'
+      label: 'Visit type 1'
+    -
+      value: 'Visit type 2'
+      label: 'Visit type 2'
+    -
+      value: 'Visit type 3'
+      label: 'Visit type 3'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

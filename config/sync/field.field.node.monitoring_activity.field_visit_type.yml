@@ -1,0 +1,23 @@
+uuid: bc491bfd-99f2-4812-ba0f-f6b83b1e66dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_visit_type
+    - node.type.monitoring_activity
+  module:
+    - options
+id: node.monitoring_activity.field_visit_type
+field_name: field_visit_type
+entity_type: node
+bundle: monitoring_activity
+label: 'Visit Type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'Visit type 1'
+default_value_callback: ''
+settings: {  }
+field_type: list_string
