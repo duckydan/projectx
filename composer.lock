@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "513885ea378c5bcd7d92b5f3b21a542c",
+    "content-hash": "feba5068198b16df0a56c4cc2deb1847",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2667,6 +2667,65 @@
             }
         },
         {
+            "name": "drupal/clientside_validation",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/clientside_validation",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/clientside_validation-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "e630a9ac11add3054cd84be6d3193686f69bacc0"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "require-dev": {
+                "drupal/clientside_validation_demo": "*",
+                "drupal/clientside_validation_jquery": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1547893380",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jelle_S",
+                    "homepage": "https://www.drupal.org/user/829198"
+                },
+                {
+                    "name": "attiks",
+                    "homepage": "https://www.drupal.org/user/105002"
+                },
+                {
+                    "name": "nikunjkotecha",
+                    "homepage": "https://www.drupal.org/user/694082"
+                }
+            ],
+            "description": "This module adds clientside validation",
+            "homepage": "https://www.drupal.org/project/clientside_validation",
+            "support": {
+                "source": "http://cgit.drupalcode.org/clientside_validation"
+            }
+        },
+        {
             "name": "drupal/coffee",
             "version": "1.0.0-beta2",
             "source": {
@@ -3873,6 +3932,57 @@
                 "source": "http://cgit.drupalcode.org/field_group"
             },
             "time": "2018-11-26T18:27:09+00:00"
+        },
+        {
+            "name": "drupal/field_validation",
+            "version": "1.0.0-alpha6",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/field_validation",
+                "reference": "8.x-1.0-alpha6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_validation-8.x-1.0-alpha6.zip",
+                "reference": "8.x-1.0-alpha6",
+                "shasum": "6b1ec37c21f17028f45ad912563741c4fd327165"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha6",
+                    "datestamp": "1504775344",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "g089h515r806",
+                    "homepage": "https://www.drupal.org/user/174740"
+                },
+                {
+                    "name": "manuel.adan",
+                    "homepage": "https://www.drupal.org/user/516420"
+                }
+            ],
+            "description": "Field validation.",
+            "homepage": "https://www.drupal.org/project/field_validation",
+            "support": {
+                "source": "http://cgit.drupalcode.org/field_validation"
+            }
         },
         {
             "name": "drupal/fontawesome",
@@ -11278,6 +11388,7 @@
         "drupal/content_lock_timeout": 15,
         "drupal/diff": 5,
         "drupal/field_group": 20,
+        "drupal/field_validation": 15,
         "drupal/guardr_core": 15,
         "drupal/session_limit": 10,
         "drupal/uswds": 20,

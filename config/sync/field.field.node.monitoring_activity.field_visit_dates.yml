@@ -1,0 +1,21 @@
+uuid: 1f498ec7-f74c-4c48-a960-b9ee02af0e68
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_visit_dates
+    - node.type.monitoring_activity
+  module:
+    - datetime_range
+id: node.monitoring_activity.field_visit_dates
+field_name: field_visit_dates
+entity_type: node
+bundle: monitoring_activity
+label: 'Visit Dates'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

@@ -5,18 +5,23 @@ dependencies:
   config:
     - field.field.node.monitoring_activity.body
     - field.field.node.monitoring_activity.field_agency_name
-    - field.field.node.monitoring_activity.field_end
     - field.field.node.monitoring_activity.field_fiscal_year
     - field.field.node.monitoring_activity.field_region
-    - field.field.node.monitoring_activity.field_start
     - field.field.node.monitoring_activity.field_state
+    - field.field.node.monitoring_activity.field_visit_dates
     - field.field.node.monitoring_activity.field_visit_type
     - node.type.monitoring_activity
   module:
-    - datetime
+    - datetime_range
+    - field_layout
+    - layout_discovery
     - options
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: node.monitoring_activity.default
 targetEntityType: node
 bundle: monitoring_activity
@@ -37,15 +42,6 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-  field_end:
-    weight: 108
-    label: above
-    settings:
-      format_type: medium
-      timezone_override: ''
-    third_party_settings: {  }
-    type: datetime_default
-    region: content
   field_fiscal_year:
     weight: 103
     label: above
@@ -61,21 +57,22 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_start:
-    weight: 107
-    label: above
-    settings:
-      format_type: medium
-      timezone_override: ''
-    third_party_settings: {  }
-    type: datetime_default
-    region: content
   field_state:
     weight: 105
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
+    region: content
+  field_visit_dates:
+    weight: 107
+    label: above
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: daterange_default
     region: content
   field_visit_type:
     weight: 106

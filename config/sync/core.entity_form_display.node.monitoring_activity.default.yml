@@ -5,15 +5,14 @@ dependencies:
   config:
     - field.field.node.monitoring_activity.body
     - field.field.node.monitoring_activity.field_agency_name
-    - field.field.node.monitoring_activity.field_end
     - field.field.node.monitoring_activity.field_fiscal_year
     - field.field.node.monitoring_activity.field_region
-    - field.field.node.monitoring_activity.field_start
     - field.field.node.monitoring_activity.field_state
+    - field.field.node.monitoring_activity.field_visit_dates
     - field.field.node.monitoring_activity.field_visit_type
     - node.type.monitoring_activity
   module:
-    - datetime
+    - datetime_range
     - field_group
     - field_layout
     - layout_discovery
@@ -22,37 +21,37 @@ dependencies:
 third_party_settings:
   field_group:
     group_tabs:
-      children:
-        - field_start
-        - field_end
+      children: {  }
       parent_name: ''
-      weight: 11
+      weight: 12
       format_type: tabs
       format_settings:
         id: ''
         classes: ''
         direction: vertical
       label: Tabs
-      region: middle
+      region: content
     group_details:
       children:
         - field_fiscal_year
+        - field_region
         - body
-      parent_name: ''
-      weight: 0
+      parent_name: group_tab_test_2
+      weight: 3
       format_type: details
       format_settings:
-        id: ''
-        classes: ''
+        label: Details
         open: true
         required_fields: true
+        id: ''
+        classes: usa-width-one-half
       label: Details
-      region: first_above
+      region: content
     group_accordion_item:
       children:
         - field_agency_name
       parent_name: ''
-      weight: 12
+      weight: 1
       format_type: accordion_item
       format_settings:
         id: ''
@@ -61,7 +60,7 @@ third_party_settings:
         required_fields: true
         description: ''
       label: 'Accordion Item'
-      region: middle
+      region: content
     group_aaaaa:
       children: {  }
       parent_name: ''
@@ -74,7 +73,7 @@ third_party_settings:
         required_fields: true
         description: ''
       label: AAAAA
-      region: middle
+      region: content
     group_html_element:
       children: {  }
       parent_name: ''
@@ -91,9 +90,36 @@ third_party_settings:
         effect: none
         speed: fast
       label: 'HTML Element'
-      region: middle
+      region: content
+    group_tab_test:
+      children:
+        - group_tab_test_2
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        label: 'Tab test'
+        direction: horizontal
+        id: ''
+        classes: ''
+      label: 'Tab test'
+      region: content
+    group_tab_test_2:
+      children:
+        - group_details
+      parent_name: group_tab_test
+      weight: 2
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: 'Tab test 2'
+      region: content
   field_layout:
-    id: layout_twocol_bricks
+    id: layout_onecol
     settings: {  }
 id: node.monitoring_activity.default
 targetEntityType: node
@@ -102,17 +128,17 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 3
+    weight: 4
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
-    region: first_above
+    region: content
   created:
     type: datetime_timestamp
-    weight: 6
-    region: middle
+    weight: 7
+    region: content
     settings: {  }
     third_party_settings: {  }
   field_agency_name:
@@ -122,88 +148,82 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
-    region: middle
-  field_end:
-    weight: 13
-    settings: {  }
-    third_party_settings: {  }
-    type: datetime_default
-    region: middle
+    region: content
   field_fiscal_year:
     weight: 2
     settings: {  }
     third_party_settings: {  }
     type: options_select
-    region: first_above
+    region: content
   field_region:
-    weight: 1
+    weight: 3
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
-    region: second_above
-  field_start:
-    weight: 12
-    settings: {  }
-    third_party_settings: {  }
-    type: datetime_default
-    region: middle
+    region: content
   field_state:
-    weight: 4
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: middle
-  field_visit_type:
     weight: 5
     settings: {  }
     third_party_settings: {  }
     type: options_select
-    region: middle
+    region: content
+  field_visit_dates:
+    weight: 15
+    settings: {  }
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_visit_type:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   path:
     type: path
-    weight: 9
-    region: middle
+    weight: 10
+    region: content
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 7
-    region: middle
+    weight: 8
+    region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 10
-    region: middle
+    weight: 11
+    region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 8
-    region: middle
+    weight: 9
+    region: content
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 2
-    region: second_above
+    weight: 3
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 3
+    weight: 4
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
-    region: middle
+    region: content
     third_party_settings: {  }
 hidden: {  }
