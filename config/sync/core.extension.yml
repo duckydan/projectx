@@ -63,6 +63,13 @@ module:
   options: 0
   page_cache: 0
   password_policy: 0
+  password_policy_character_types: 0
+  password_policy_delay: 0
+  password_policy_history: 0
+  password_policy_length: 0
+  password_policy_name: 0
+  password_policy_password: 0
+  password_policy_systemname: 0
   path: 0
   quickedit: 0
   r4032login: 0
