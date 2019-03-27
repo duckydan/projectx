@@ -1,11 +1,11 @@
-uuid: 9e3f6b03-b77d-4e4d-b38b-e4fc617d6195
+uuid: 97d21f52-454a-4a12-b8e9-0fdd1a7def2a
 langcode: en
 status: true
 dependencies:
   module:
     - webform
 _core:
-  default_config_hash: N9pgbVGvNm3FTXpoCz6sN7OmeoA6NgHKgirEC5tZOc4
+  default_config_hash: TBnl4vapW7sy5bRi7TcF-ueJnvz7aZNLif95ifvhfTQ
 id: webform_submission_delete_action
 label: 'Delete submission'
 type: webform_submission

@@ -1,9 +1,0 @@
-tag: i
-method: svg
-use_cdn: false
-external_svg_location: 'https://use.fontawesome.com/releases/v5.5.0/js/all.js'
-use_shim: true
-external_shim_location: 'https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js'
-_core:
-  default_config_hash: KCs1BMu0N7jim6hcQiR7RtODst9GRmfikYhEECGi4gI
-allow_pseudo_elements: false

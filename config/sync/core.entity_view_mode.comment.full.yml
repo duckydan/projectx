@@ -1,11 +1,11 @@
-uuid: bca0f09e-f22c-4168-bcac-348ceb8f9e33
+uuid: 11df6a5d-6636-4b79-b60b-592b6729a56d
 langcode: en
 status: false
 dependencies:
   module:
     - comment
 _core:
-  default_config_hash: yWzRZ9RJsYtaIuN1n2Zsr985YrQksluhDDyV6CcBp60
+  default_config_hash: K7eNlfU7NEUajz01wItywZklr2oaPgL6s1_97fmDXLA
 id: comment.full
 label: 'Full comment'
 targetEntityType: comment

@@ -1,6 +1,6 @@
-uuid: 329384db-f427-4dc7-8da8-a2440e736510
-name: 'National Reporting System'
-mail: admin@example.com
+uuid: be84fa0c-268f-4661-a1c1-3fbc8df48418
+name: Test
+mail: develand@gmail.com
 slogan: ''
 page:
   403: ''
@@ -11,5 +11,4 @@ weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
-  default_config_hash: 95ps5UvdEB7O4ovTGGN2WRguvZgAttFl3F1s8wTolI0
-mail_notification: ''
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

@@ -1,4 +1,4 @@
-uuid: 5c04c020-5453-473a-8fbc-3024a2717521
+uuid: 3640372e-0f62-4093-8355-12fbbdb9be95
 langcode: en
 status: true
 dependencies:
@@ -6,11 +6,10 @@ dependencies:
     - field.field.node.page.body
     - node.type.page
   module:
-    - content_moderation
     - path
     - text
 _core:
-  default_config_hash: whuHWEHojfYPcLXnBtM3EHKPRK3YKDZM1Gco0dmQJyA
+  default_config_hash: sb0qCkzU_8mNq29NehYAU8jCBXWPLeX0UN8sYFVGVcw
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -30,12 +29,6 @@ content:
     weight: 10
     region: content
     settings: {  }
-    third_party_settings: {  }
-  moderation_state:
-    type: moderation_state_default
-    weight: 100
-    settings: {  }
-    region: content
     third_party_settings: {  }
   path:
     type: path

@@ -1,4 +1,4 @@
-uuid: 0e8cb284-841c-44e8-a05c-0eb22c903c7b
+uuid: fa4e196c-ec17-4909-ad52-c6a14f4cb805
 langcode: en
 status: true
 dependencies:
@@ -11,12 +11,11 @@ dependencies:
     - node.type.article
   module:
     - comment
-    - content_moderation
     - image
     - path
     - text
 _core:
-  default_config_hash: qx9cuQEax8dbJXU3MjJqD_ZYBsRSGhvH3UgY0BrqZyw
+  default_config_hash: vPb_yvhA-xuNoV_yOmOwYxGuHNRIH1CoMK2qi7BSga0
 id: node.article.default
 targetEntityType: node
 bundle: article
@@ -55,13 +54,10 @@ content:
     type: entity_reference_autocomplete_tags
     weight: 3
     region: content
-    settings: {  }
-    third_party_settings: {  }
-  moderation_state:
-    type: moderation_state_default
-    weight: 100
-    settings: {  }
-    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   path:
     type: path

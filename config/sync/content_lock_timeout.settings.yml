@@ -1,4 +1,0 @@
-content_lock_timeout_minutes: '60'
-content_lock_timeout_on_edit: 1
-_core:
-  default_config_hash: B197Kr5fmKLjBne5cj70g1545PW7CfGOLoxmFaTC7Kk

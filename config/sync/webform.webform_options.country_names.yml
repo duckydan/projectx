@@ -1,4 +1,4 @@
-uuid: 5b71c03d-b0a1-4401-ad96-3f48b11b8c23
+uuid: cf57c471-81f0-488f-b890-d09a6d263cc0
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - webform
 _core:
-  default_config_hash: Wkk3Q7kA3X06ADRDbQLc4Xgbr26qfDlfYQzRe457mQI
+  default_config_hash: zsfFP124dAM-sJkuEfnwaA7DN6o3-IsaXLgdNmObbYg
 id: country_names
 label: 'Country names'
 category: Geographic

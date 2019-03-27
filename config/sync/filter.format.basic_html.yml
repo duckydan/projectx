@@ -1,11 +1,11 @@
-uuid: e19f6ef5-d03a-4f3d-941e-c3bbfcd9fcf1
+uuid: e83947a1-3c49-436e-a542-3193c7bcbf84
 langcode: en
 status: true
 dependencies:
   module:
     - editor
 _core:
-  default_config_hash: vkA6OpfbiARNXSUoeqtdEZqzEgJB8c3QLte8No-YofM
+  default_config_hash: P8ddpAIKtawJDi5SzOwCzVnnNYqONewSTJ6Xn0dW_aQ
 name: 'Basic HTML'
 format: basic_html
 weight: 0

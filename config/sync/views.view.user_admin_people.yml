@@ -1,11 +1,11 @@
-uuid: fbaf4960-2c01-4350-8ffc-92b699491573
+uuid: e8097b31-7deb-48fe-aeed-4900de83b0de
 langcode: en
 status: true
 dependencies:
   module:
     - user
 _core:
-  default_config_hash: uCfZz4mPq7pnPSY17Yn0WBFinQacQun8fvuyGrGbI00
+  default_config_hash: wTJRNzsLVTenCALONNlVfgm_pBOlqucSPuVFLOD56ck
 id: user_admin_people
 label: People
 module: user
@@ -604,7 +604,6 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
-            placeholder: ''
           is_grouped: false
           group_info:
             label: ''
@@ -813,9 +812,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-            placeholder: ''
-            min_placeholder: ''
-            max_placeholder: ''
           is_grouped: false
           group_info:
             label: ''

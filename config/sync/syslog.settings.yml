@@ -1,5 +1,0 @@
-identity: drupal
-facility: 128
-format: '!base_url|!timestamp|!type|!ip|!request_uri|!referer|!uid|!link|!message'
-_core:
-  default_config_hash: U4y-8NiU8T6r7-S2GzH659dhTk1sOJHLHh6DLUQi_Ek

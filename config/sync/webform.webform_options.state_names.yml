@@ -1,4 +1,4 @@
-uuid: d20c5702-e624-4a21-9df1-0d76621a3a1f
+uuid: 8120a93c-7dce-42e5-8f76-625ecbf37492
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - webform
 _core:
-  default_config_hash: pZLpyqIhMvmiP6GSdcuahaMSl_uUHkPOp5QVi5nFQmI
+  default_config_hash: KfYqMSrFJ5iGtDzvy_rGUeRUJ4KyM7Xt-tWtYx9WjiM
 id: state_names
 label: 'State names'
 category: Geographic

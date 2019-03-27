@@ -1,5 +1,5 @@
 check:
-  disabled_extensions: true
+  disabled_extensions: false
   interval_days: 1
 fetch:
   url: ''
@@ -7,7 +7,7 @@ fetch:
   timeout: 30
 notification:
   emails:
-    - admin@example.com
-  threshold: security
+    - develand@gmail.com
+  threshold: all
 _core:
-  default_config_hash: z7HCNobPeaCz-pEgzzQy0NcVA1gnNRi2FuTxkJkASD4
+  default_config_hash: 2QzULf0zovJQx3J06Y9rufzzfi-CY2CTTlEfJJh2Qyw

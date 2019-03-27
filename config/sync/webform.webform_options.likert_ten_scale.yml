@@ -1,4 +1,4 @@
-uuid: bb0806c6-cacf-4de5-97a0-e63678277135
+uuid: 210664a2-86fa-45e9-9707-053fbd9a3609
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - webform
 _core:
-  default_config_hash: JfD40lEWFsTIoSccZTiKvDaY0yYus-dPVD0iW4fiBuc
+  default_config_hash: zEZX8JSVqznnFtqFfpuC593h3t1JDAZhF0Q3pvA229o
 id: likert_ten_scale
 label: 'Likert: Ten Scale'
 category: Likert

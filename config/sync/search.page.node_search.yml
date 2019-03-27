@@ -1,11 +1,11 @@
-uuid: df0f4bca-cfba-4101-986c-252e79c88961
+uuid: 98477ff5-a4a6-4aa6-ae89-6a8321cd30f8
 langcode: en
 status: true
 dependencies:
   module:
     - node
 _core:
-  default_config_hash: ulqndr5CBvbOg6cc5o7gzqJ9y7HgghfALWIHIaHUNlA
+  default_config_hash: 97tvtzGOa8_flb22CzSjgtm_YkiGMHvEBO-6q2K9V_U
 id: node_search
 label: Content
 path: node

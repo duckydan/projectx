@@ -1,12 +1,12 @@
-track_time: 24
-user_wrong_count: 3
+track_time: 1
+user_wrong_count: 0
 host_wrong_count: 0
 host_wrong_count_hard: 0
 activity_threshold: 0
-disable_core_login_error: 1
-notice_attempts_available: 1
-last_login_timestamp: 1
-last_access_timestamp: 1
+disable_core_login_error: 0
+notice_attempts_available: 0
+last_login_timestamp: 0
+last_access_timestamp: 0
 user_blocked_notification_emails: ''
 login_activity_notification_emails: ''
 notice_attempts_message: 'You have used @user_current_count out of @user_block_attempts login attempts. After all @user_block_attempts have been used, you will be unable to login.'
@@ -18,4 +18,4 @@ user_blocked_email_body: 'The user @username (@edit_uri) has been blocked at @si
 login_activity_email_subject: 'Security information: Unexpected login activity has been detected at @site.'
 login_activity_email_body: 'The configured threshold of @activity_threshold logins has been reached with a total of @tracking_current_count invalid login attempts. You should review your log information about login attempts at @site.'
 _core:
-  default_config_hash: W6cdqaGK5WmcKXXHi8oa6s9Wim7-WbRVG_NHOvM07yQ
+  default_config_hash: DftMffb4je4TYBtv6tAjHrXDtW3HBZ85hU9mCFJpCgM

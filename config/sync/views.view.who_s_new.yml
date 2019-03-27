@@ -1,11 +1,11 @@
-uuid: ac02912e-67e5-4479-9020-ce045fdbb156
+uuid: c0e661f6-1656-40ea-8e45-4eabf8c9cebd
 langcode: en
 status: true
 dependencies:
   module:
     - user
 _core:
-  default_config_hash: UiFNqxsKc7drHCl4iiXs7jl0k2qCCv0ftpGzlhjrPPA
+  default_config_hash: o_8fSWHZOVIbydZACGsSX09DtuJhqkRmNOzcVj-4bQI
 id: who_s_new
 label: 'Who''s new'
 module: user
@@ -129,9 +129,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-            placeholder: ''
-            min_placeholder: ''
-            max_placeholder: ''
           is_grouped: false
           group_info:
             label: ''

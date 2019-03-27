@@ -1,4 +1,4 @@
-admin: nrs_adminimal_theme
-default: uswdsnrs
+admin: seven
+default: bartik
 _core:
-  default_config_hash: RnfLYOeIz9A3_gWTLLBcnP5aqUvrmF6e6P4u89w0Sok
+  default_config_hash: fOjer9hADYYnbCJVZMFZIIM1azTFWyg84ZkFDHfAbUg
