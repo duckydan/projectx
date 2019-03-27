@@ -1,0 +1,23 @@
+uuid: a1f2f930-4540-4cc9-8dc1-13a103e64bdf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rt_reportingperiod_from
+    - node.type.nrs_rt_financial
+  module:
+    - datetime
+_core:
+  default_config_hash: TkcNkoDh1mm7RCg2PK29avYujFOEZJOIK04z6X9kVeg
+id: node.nrs_rt_financial.field_rt_reportingperiod_from
+field_name: field_rt_reportingperiod_from
+entity_type: node
+bundle: nrs_rt_financial
+label: 'From:'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,12 @@
+uuid: 04e5368f-9a0d-4883-aada-467d4bbf9a23
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: Hm0x-Ad2RJz4bn7D-oAsQHEKLtWRlzx9oIxeCaFZIIY
+id: node.nrs_webform_edit
+label: 'NRS Webform Edit'
+targetEntityType: node
+cache: true

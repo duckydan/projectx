@@ -1,0 +1,32 @@
+uuid: 98fe4a5a-0d39-4545-b9f7-090e9040297f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.nrs_data
+    - field.field.block_content.nrs_data.field_comments
+  module:
+    - comment
+_core:
+  default_config_hash: zuRs25pANkkumrr3pIM2D0Uqy3cu2w2_SIBFKt8AFPU
+id: block_content.nrs_data.default
+targetEntityType: block_content
+bundle: nrs_data
+mode: default
+content:
+  field_comments:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  moderation_state: true

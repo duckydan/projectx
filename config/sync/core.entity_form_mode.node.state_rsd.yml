@@ -1,0 +1,12 @@
+uuid: 4bc2a8da-78cd-4fcb-9436-c519d5adeec0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: AHxTGwP8sszS6kTscN_ZnwtBEdMLCHUZj3u5A_LO_mA
+id: node.state_rsd
+label: 'State RSD'
+targetEntityType: node
+cache: true

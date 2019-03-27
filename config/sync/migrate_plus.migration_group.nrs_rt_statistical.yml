@@ -1,0 +1,12 @@
+uuid: 273d710c-fc78-41b5-a260-fbf1758f9ea6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BHa3tylU6ZO8flcqUU43KJzLOUEMaBrs8-o1Drmcg0Q
+id: nrs_rt_statistical
+label: 'NRS RT Statistical'
+description: ''
+source_type: ColdFusion
+module: null
+shared_configuration: null

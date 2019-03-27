@@ -1,0 +1,26 @@
+uuid: fdb0dbd5-fef1-48eb-ad9e-3fdd33651ba6
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - uswdsnrs
+_core:
+  default_config_hash: 1RQMY3vsDZ5L2oqsl5LMutbQL0AjhSE5Cc2i6vVN3w0
+id: uswdsnrs_account_menu
+theme: uswdsnrs
+region: secondary_menu
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

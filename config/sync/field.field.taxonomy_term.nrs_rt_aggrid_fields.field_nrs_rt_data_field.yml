@@ -1,0 +1,25 @@
+uuid: 5db3a77b-464b-4a6f-9d96-51829afe52d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_nrs_rt_data_field
+    - taxonomy.vocabulary.nrs_rt_aggrid_fields
+_core:
+  default_config_hash: GFHPg2HWqQSNj9q6Ob23BUg-SMWjBy_ySOWOAhvOqWI
+id: taxonomy_term.nrs_rt_aggrid_fields.field_nrs_rt_data_field
+field_name: field_nrs_rt_data_field
+entity_type: taxonomy_term
+bundle: nrs_rt_aggrid_fields
+label: 'NRS RT Data Field'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:field_storage_config'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

@@ -1,0 +1,25 @@
+uuid: cbdc26c9-935a-4483-8902-476d82d9d562
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - uswdsnrs
+_core:
+  default_config_hash: R-AYgaz9fp_gUrwh9o6QBdT28OGDN-MuHgSiqFszcfA
+id: uswdsnrs_branding
+theme: uswdsnrs
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

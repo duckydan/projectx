@@ -1,5 +1,5 @@
 anonymous: Anonymous
-verify_mail: true
+verify_mail: false
 notify:
   cancel_confirm: true
   password_reset: true
@@ -15,4 +15,4 @@ password_reset_timeout: 86400
 password_strength: true
 langcode: en
 _core:
-  default_config_hash: r4kwhOM0IWXVMUZDz744Yc16EOh37ZhYbA8kGOhSmLk
+  default_config_hash: 85wMgCFepNOWdYOap1vQLLzPXF600tBiwmQSlD_9WZs

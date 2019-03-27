@@ -1,0 +1,24 @@
+uuid: 1d184254-a5e3-45f1-987e-6ea7f6a5ca44
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.nrs_webform
+_core:
+  default_config_hash: YJ3xFLsnweDPtHZ-YuTtOS17H1PNEurfNZrjOFUtVm4
+id: node.nrs_webform.status
+field_name: status
+entity_type: node
+bundle: nrs_webform
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

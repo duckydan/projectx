@@ -1,0 +1,22 @@
+uuid: 7ea7669d-783f-487b-a268-2395529fb3e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - taxonomy
+_core:
+  default_config_hash: 3mw44a9KjIO_VjyP-foBqHx7mAxMwGiBJZZYtszTdpk
+id: comment.field_data_status
+field_name: field_data_status
+entity_type: comment
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

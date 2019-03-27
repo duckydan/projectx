@@ -1,0 +1,58 @@
+uuid: 573eeaaf-77db-45ef-af14-3ce665a257c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.modal
+    - field.field.node.nrs_rt_statistical.field_cross_table_validations
+    - field.field.node.nrs_rt_statistical.field_nrs_rt_data_1
+    - field.field.node.nrs_rt_statistical.field_nrs_rt_data_2
+    - field.field.node.nrs_rt_statistical.field_nrs_rt_data_3
+    - field.field.node.nrs_rt_statistical.field_nrs_rt_list
+    - field.field.node.nrs_rt_statistical.field_nrs_rt_program
+    - field.field.node.nrs_rt_statistical.field_nrs_table_comments
+    - field.field.node.nrs_rt_statistical.field_state
+    - node.type.nrs_rt_statistical
+  module:
+    - aggrid
+    - user
+_core:
+  default_config_hash: yJxg3esq8zar1kOExofn-wwbw6zcEp-LAdoPShTPEz8
+id: node.nrs_rt_statistical.modal
+targetEntityType: node
+bundle: nrs_rt_statistical
+mode: modal
+content:
+  content_moderation_control:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_nrs_rt_data_1:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: aggrid_formatter_type
+    region: content
+  field_nrs_rt_data_2:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: aggrid_formatter_type
+    region: content
+  field_nrs_rt_data_3:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: aggrid_formatter_type
+    region: content
+hidden:
+  field_cross_table_validations: true
+  field_nrs_rt_list: true
+  field_nrs_rt_program: true
+  field_nrs_table_comments: true
+  field_state: true
+  links: true

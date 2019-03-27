@@ -1,0 +1,19 @@
+uuid: 9dabea6b-73ae-4b27-bce8-75822a932934
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: qC2DRVMlGql8udxrO4hCA4YKK_ObI8fST76DRBIH708
+name: 'RT Data Quality Checklist'
+type: nrs_rt_data_quality_checklist
+description: 'All NRS RT (Reporting Table) Data Quality Checklist (DQC) items.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

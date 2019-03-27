@@ -1,0 +1,23 @@
+uuid: 2ee8bce0-2a0f-46f5-bb1c-b88a44c86405
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.nrs_rt_numbers
+  module:
+    - text
+_core:
+  default_config_hash: QRUVzWNP8jlFZNY_hVSysDsphP1PA-uD39hVbU-EqQw
+id: taxonomy_term.nrs_rt_numbers.default
+targetEntityType: taxonomy_term
+bundle: nrs_rt_numbers
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

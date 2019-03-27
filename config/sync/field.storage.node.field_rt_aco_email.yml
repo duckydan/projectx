@@ -1,0 +1,20 @@
+uuid: 2aa439cb-6996-4635-922a-80ad8d78d7cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: XUEqTHLZqOwscbwsRgmQZTqr0LFF9mW_rS89lvyjak4
+id: node.field_rt_aco_email
+field_name: field_rt_aco_email
+entity_type: node
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: aa27ed7e-cc24-4677-bfb6-81c93a339ba4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: XdaXOCKGAaA8xHhVP3aPml43JeYLzkgc3OVW2lBkVag
+id: node.field_rt_aco_title
+field_name: field_rt_aco_title
+entity_type: node
+type: string
+settings:
+  max_length: 128
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

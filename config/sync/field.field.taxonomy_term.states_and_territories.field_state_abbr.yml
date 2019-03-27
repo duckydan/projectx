@@ -1,0 +1,21 @@
+uuid: b8c25a00-8636-4c78-8acf-a6e70ddfac20
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_state_abbr
+    - taxonomy.vocabulary.states_and_territories
+_core:
+  default_config_hash: J4PXiEhquQZgsWOv807PuqbWSeSuh5-E5OZrFohvOSk
+id: taxonomy_term.states_and_territories.field_state_abbr
+field_name: field_state_abbr
+entity_type: taxonomy_term
+bundle: states_and_territories
+label: 'State Abbreviation'
+description: 'The official U.S. Postal shortened two-letter abbreviation for each State and Territory.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

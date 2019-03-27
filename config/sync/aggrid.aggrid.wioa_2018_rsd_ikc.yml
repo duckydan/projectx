@@ -1,0 +1,10 @@
+uuid: a9c63ae6-e875-438f-92ce-4a67938e698a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: gpgf4WvBknAeJHo_xvHBBNfq7l0POaftoJM0oqmbUn0
+id: wioa_2018_rsd_ikc
+label: 'WIOA 2018 - RSD In-Kind Contributions'
+aggridDefault: "{\r\n  \"columnDefs\": [\r\n    {\r\n      \"headerName\": \"\",\r\n      \"field\": \"name\",\r\n      \"width\": 150,\r\n      \"minWidth\": 150\r\n    },\r\n    {\r\n      \"headerName\": \"\",\r\n      \"field\": \"amount\",\r\n      \"cellRenderer\": \"agAnimateShowChangeCellRenderer\"\r\n    }\r\n  ],\r\n  \"rowSettings\": {\r\n    \"default\": {\r\n      \"rowDefault\": {\r\n        \"editable\": true,\r\n        \"parserType\": \"dec\",\r\n        \"formatType\": \"numUsd\"\r\n      },\r\n      \"name\": {\r\n        \"cellClass\": \"aggrid-cell-label\",\r\n        \"editable\": false,\r\n        \"isRowLabel\": true,\r\n        \"parserType\": \"\",\r\n        \"formatType\": \"\"\r\n      },\r\n      \"amount\": {\r\n        \"valueGetter\": \"Number(params.data.amount).toFixed(2)\"\r\n      }\r\n    },\r\n    \"2\": {\r\n      \"amount\": {\r\n        \"cellClass\": \"aggrid-cell-total\",\r\n        \"editable\": false,\r\n        \"valueGetter\": \"columnTotal(params.colDef.field, 0, 1).toFixed(2)\"\r\n      }\r\n    }\r\n  },\r\n  \"rowData\": [\r\n    {\r\n      \"id\": 1,\r\n      \"name\": \"State:\",\r\n      \"amount\": 0\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"name\": \"Local:\",\r\n      \"amount\": 0\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"name\": \"Total in-kind contributions:\",\r\n      \"amount\": 0\r\n    }\r\n  ]\r\n}"
+addOptions: ''

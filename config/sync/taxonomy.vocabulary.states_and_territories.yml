@@ -1,0 +1,11 @@
+uuid: 73be1c21-b677-4746-a6ba-4684dc8fdadc
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: NLzO74FGDd08kucAjyijog3dm1mzRQV-HZ_RbqEq26s
+name: 'States and Outlying Areas'
+vid: states_and_territories
+description: 'A list of all States and Outlying areas for the USA.'
+hierarchy: 0
+weight: 0

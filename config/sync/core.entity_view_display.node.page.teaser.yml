@@ -1,4 +1,4 @@
-uuid: c12ad280-09f3-4ca0-8b02-efc4c8dcd0ff
+uuid: 8717f8e7-1477-4b72-8910-c7a5061b77f5
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ dependencies:
     - text
     - user
 _core:
-  default_config_hash: cSv5lDnbIgDug475Hdz3woED2XMqYv3awI-J9u1JLbY
+  default_config_hash: lGf_Td1G9bVvgO04oqvZkQrTV4l2wlmwWbke1FviCk8
 id: node.page.teaser
 targetEntityType: node
 bundle: page
@@ -27,4 +27,6 @@ content:
   links:
     weight: 101
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden: {  }

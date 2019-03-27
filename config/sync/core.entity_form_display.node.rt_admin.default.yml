@@ -1,0 +1,75 @@
+uuid: 2bfe04e9-eb88-42e4-9880-cf79ec429c56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.rt_admin.field_nrs_rt_data_1
+    - field.field.node.rt_admin.field_nrs_rt_data_2
+    - field.field.node.rt_admin.field_nrs_rt_program
+    - field.field.node.rt_admin.field_omb_control_number
+    - field.field.node.rt_admin.field_omb_expiration_date
+    - node.type.rt_admin
+  module:
+    - aggrid
+    - datetime
+_core:
+  default_config_hash: 29m8WvCBGUubntHy7pws6-JJoCQn2V2jXlWZzQ7pMDo
+id: node.rt_admin.default
+targetEntityType: node
+bundle: rt_admin
+mode: default
+content:
+  field_nrs_rt_data_1:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: aggrid_widget_type
+    region: content
+  field_nrs_rt_data_2:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: aggrid_widget_type
+    region: content
+  field_nrs_rt_program:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_omb_control_number:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: 0000-0000
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_omb_expiration_date:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 6
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  moderation_state: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

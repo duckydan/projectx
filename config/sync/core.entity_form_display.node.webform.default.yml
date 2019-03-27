@@ -1,4 +1,4 @@
-uuid: f398d9b3-8c29-4763-bd41-51741e509793
+uuid: 0e742612-a395-46dc-84f8-aa7e37c7141d
 langcode: en
 status: true
 dependencies:
@@ -7,17 +7,12 @@ dependencies:
     - field.field.node.webform.webform
     - node.type.webform
   module:
-    - field_layout
-    - layout_discovery
+    - content_moderation
     - path
     - text
     - webform
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
-  default_config_hash: A3evv2pt6d-bKCPcgjXA5VGTemXWOxG3lSXvWiRWcck
+  default_config_hash: k28H-IQGasboUKdcqyAf5MlFKuCGJ2KVX2TqPc5ejiM
 id: node.webform.default
 targetEntityType: node
 bundle: webform
@@ -38,6 +33,12 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
   path:
     type: path
     weight: 30

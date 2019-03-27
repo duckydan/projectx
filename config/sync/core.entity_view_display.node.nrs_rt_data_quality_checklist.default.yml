@@ -1,0 +1,75 @@
+uuid: ca6011e5-0d91-421a-8cda-5de10f190e5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.nrs_rt_data_quality_checklist.field_dqc_instance
+    - field.field.node.nrs_rt_data_quality_checklist.field_dqc_webform_sid
+    - field.field.node.nrs_rt_data_quality_checklist.field_nrs_rt_list
+    - field.field.node.nrs_rt_data_quality_checklist.field_nrs_rt_program
+    - field.field.node.nrs_rt_data_quality_checklist.field_state
+    - field.field.node.nrs_rt_data_quality_checklist.webform
+    - node.type.nrs_rt_data_quality_checklist
+  module:
+    - user
+    - webform
+_core:
+  default_config_hash: Iz8xH-_ow6WiLgMlkm_I0B3XEFc4MEMfFr5Gbtk2LZM
+id: node.nrs_rt_data_quality_checklist.default
+targetEntityType: node
+bundle: nrs_rt_data_quality_checklist
+mode: default
+content:
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_dqc_webform_sid:
+    weight: 105
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_nrs_rt_list:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_nrs_rt_program:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_state:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  webform:
+    weight: 101
+    label: above
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+hidden:
+  field_dqc_instance: true

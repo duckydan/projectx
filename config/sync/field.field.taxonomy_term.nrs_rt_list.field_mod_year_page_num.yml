@@ -1,0 +1,21 @@
+uuid: 7217e818-6b85-4f75-be37-c51f784558a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_mod_year_page_num
+    - taxonomy.vocabulary.nrs_rt_list
+_core:
+  default_config_hash: CtzrbFiKj2rCZ3bZ4Ok018QJrOnRGfqEfasUndWlC7c
+id: taxonomy_term.nrs_rt_list.field_mod_year_page_num
+field_name: field_mod_year_page_num
+entity_type: taxonomy_term
+bundle: nrs_rt_list
+label: 'Modification year page number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

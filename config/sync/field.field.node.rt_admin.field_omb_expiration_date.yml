@@ -1,0 +1,23 @@
+uuid: 007c9798-8a3d-4ecd-a1f0-5b9d6b9b7f48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_omb_expiration_date
+    - node.type.rt_admin
+  module:
+    - datetime
+_core:
+  default_config_hash: uEZ8U8l6k37GzzNO9EtrXGvaH4QhQdmMDqEvWXOHa3s
+id: node.rt_admin.field_omb_expiration_date
+field_name: field_omb_expiration_date
+entity_type: node
+bundle: rt_admin
+label: 'OMB Expiration Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

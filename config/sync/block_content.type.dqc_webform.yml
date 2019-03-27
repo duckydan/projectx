@@ -1,0 +1,10 @@
+uuid: 062c7b4e-3b14-422a-a3aa-c251b1050afb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 0NWOV1BvfPpBgNeEdXqtzgoISK0EKuwxJAxUA32NfRU
+id: dqc_webform
+label: 'DQC Webform'
+revision: 1
+description: ''

@@ -1,0 +1,19 @@
+uuid: 582ea310-aa3a-4c01-9cef-421bee2b5ea0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: epvhYiqcXJ1Q9RI0a0AxFfL3flOcRawhC4pcpaItTtY
+name: 'RT Admin'
+type: rt_admin
+description: 'Used by the Federal Admin to manage OMB # and auto populated items for Reporting Tables for each Program Year. OMB # and OMB Expiration Date will be immediately pulled from the most current year from this content type. Please make sure it is accurate.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

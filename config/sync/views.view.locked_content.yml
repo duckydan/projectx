@@ -1,4 +1,4 @@
-uuid: 9c5ba513-dfd2-41fe-8259-6cb7ef376a70
+uuid: dd24dc49-2e13-4422-b3fb-44b05c291ee0
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: EpNid4cXhaYpPFkwzH3JY10aW4JmZVxymgYAM0icUkY
+  default_config_hash: PVraAWqhcUmmb-vfyWQidTb7FcIzw2TE-tBKCqmcJZ8
 id: locked_content
 label: 'Locked content'
 module: views

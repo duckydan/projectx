@@ -1,0 +1,16 @@
+uuid: 28c81c02-e120-4462-bdae-19d64ac0e9e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.state_user_monitoring
+  module:
+    - user
+_core:
+  default_config_hash: UPmwP-d58Lm4ijHGCrdVDkamxpU4I2HTfzyZjMFLX70
+id: user_add_role_action.state_user_monitoring
+label: 'Add the State User - Monitoring role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: state_user_monitoring

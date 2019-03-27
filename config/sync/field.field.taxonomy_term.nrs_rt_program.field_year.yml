@@ -1,0 +1,25 @@
+uuid: 717814aa-5f1e-4972-8e5b-f388ae4ecd64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_year
+    - taxonomy.vocabulary.nrs_rt_program
+_core:
+  default_config_hash: Awa5gpGU2_DL3aivRVboVtl7T34jt2E06t0pprs9Cqo
+id: taxonomy_term.nrs_rt_program.field_year
+field_name: field_year
+entity_type: taxonomy_term
+bundle: nrs_rt_program
+label: 'Program Year'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 2000
+  max: 2080
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,21 @@
+uuid: 75694725-570c-4993-82bf-7c77ec64c9b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_state_cap
+    - taxonomy.vocabulary.states_and_territories
+_core:
+  default_config_hash: HtuLWZcp8gvOs6tcgon3O6kd1ySmm5NYARcTkFgLB7Y
+id: taxonomy_term.states_and_territories.field_state_cap
+field_name: field_state_cap
+entity_type: taxonomy_term
+bundle: states_and_territories
+label: 'State Capital'
+description: 'The State Capital for States and Territories'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

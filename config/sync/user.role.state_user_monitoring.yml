@@ -1,0 +1,11 @@
+uuid: 6d7132f4-9ada-46dd-af52-b435dd1ec26a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: In90kGst2tyRLzPyo3yfKpGqkUtWjwutU4-lJlCH17g
+id: state_user_monitoring
+label: 'State User - Monitoring'
+weight: -7
+is_admin: null
+permissions: {  }

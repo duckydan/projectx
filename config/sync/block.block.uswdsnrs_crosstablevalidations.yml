@@ -1,0 +1,65 @@
+uuid: b1d7ee52-007b-4045-861b-33240f5c9bc7
+langcode: en
+status: false
+dependencies:
+  module:
+    - ctools
+    - nrs_rt_ctv
+    - user
+  theme:
+    - uswdsnrs
+_core:
+  default_config_hash: 7PQNoRBK41cjE-D7VTi-4FeKNQprHOoc--XRETVpQdg
+id: uswdsnrs_crosstablevalidations
+theme: uswdsnrs
+region: content
+weight: -6
+provider: null
+plugin: cross_table_validations
+settings:
+  id: cross_table_validations
+  label: 'Cross Table Validations'
+  provider: nrs_rt_ctv
+  label_display: visible
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      wioa_2016_table_1: wioa_2016_table_1
+      wioa_2016_table_10: wioa_2016_table_10
+      wioa_2016_table_14: wioa_2016_table_14
+      wioa_2016_table_2: wioa_2016_table_2
+      wioa_2016_table_3: wioa_2016_table_3
+      wioa_2016_table_4: wioa_2016_table_4
+      wioa_2016_table_4b: wioa_2016_table_4b
+      wioa_2016_table_4c: wioa_2016_table_4c
+      wioa_2016_table_5: wioa_2016_table_5
+      wioa_2016_table_5a: wioa_2016_table_5a
+      wioa_2016_table_6: wioa_2016_table_6
+      wioa_2016_table_7: wioa_2016_table_7
+      wioa_2016_table_8: wioa_2016_table_8
+      wioa_2016_table_9: wioa_2016_table_9
+      wioa_2016_table_spr: wioa_2016_table_spr
+      wioa_2018_table_1: wioa_2018_table_1
+      wioa_2018_table_10: wioa_2018_table_10
+      wioa_2018_table_11: wioa_2018_table_11
+      wioa_2018_table_2a: wioa_2018_table_2a
+      wioa_2018_table_4: wioa_2018_table_4
+      wioa_2018_table_4a: wioa_2018_table_4a
+      wioa_2018_table_4b: wioa_2018_table_4b
+      wioa_2018_table_4c: wioa_2018_table_4c
+      wioa_2018_table_5: wioa_2018_table_5
+      wioa_2018_table_5a: wioa_2018_table_5a
+      wioa_2018_table_6: wioa_2018_table_6
+      wioa_2018_table_8: wioa_2018_table_8
+      wioa_2018_table_9: wioa_2018_table_9
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

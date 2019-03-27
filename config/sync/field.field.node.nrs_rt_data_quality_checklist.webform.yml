@@ -1,0 +1,38 @@
+uuid: 4b5c5daf-d8ad-46f0-9d4c-0e30708415cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.webform
+    - node.type.nrs_rt_data_quality_checklist
+    - webform.webform.dqc_test
+  module:
+    - webform
+_core:
+  default_config_hash: RRUYjQCcPvjuEB8FRkt0vAaOVOqIN9sa8fQQB7YxBxU
+id: node.nrs_rt_data_quality_checklist.webform
+field_name: webform
+entity_type: node
+bundle: nrs_rt_data_quality_checklist
+label: DQC
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+    target_uuid: 402d4e22-9279-4510-98be-b1aecea313d0
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  default_data: ''
+  status: open
+  open: ''
+  close: ''
+field_type: webform

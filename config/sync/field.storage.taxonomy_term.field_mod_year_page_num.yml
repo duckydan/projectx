@@ -1,0 +1,23 @@
+uuid: 84d5bce2-4264-4ed5-932c-b207341b48ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: nXve389s5QTijwCY16l9macnRi7feLET1YYrEkTo5SA
+id: taxonomy_term.field_mod_year_page_num
+field_name: field_mod_year_page_num
+entity_type: taxonomy_term
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

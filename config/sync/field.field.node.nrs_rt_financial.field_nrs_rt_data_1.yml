@@ -1,0 +1,23 @@
+uuid: 0f439bd0-1966-489a-9465-93acc10d71c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nrs_rt_data_1
+    - node.type.nrs_rt_financial
+  module:
+    - aggrid
+_core:
+  default_config_hash: HfpsL7JpA9alDWfRmhxeeviqtEb2MAa3E73vxUHUUU8
+id: node.nrs_rt_financial.field_nrs_rt_data_1
+field_name: field_nrs_rt_data_1
+entity_type: node
+bundle: nrs_rt_financial
+label: 'NRS RT Data 1'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: aggrid

@@ -1,0 +1,50 @@
+uuid: 0e63ca45-c23d-47cd-a2cf-8d89539b6fa4
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - node
+    - system
+    - user
+  theme:
+    - uswds
+_core:
+  default_config_hash: kYTXxdpjx1ByM-2R158jw2obTUe5OmWrlbCvT7nY5aY
+id: uswds_webform_edstate_subview
+theme: uswds
+region: content
+weight: -3
+provider: null
+plugin: 'entity_view:node'
+settings:
+  id: 'entity_view:node'
+  label: 'NRS Webform - ED State Submission View'
+  provider: ctools
+  label_display: '0'
+  view_mode: nrs_webform_ed_view
+  context_mapping:
+    entity: '@node.node_route_context:node'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/nrs/*/*/*/view'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+      state_user: state_user
+      state_administrator: state_administrator
+      federal_user: federal_user
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  node_type:
+    id: node_type
+    bundles:
+      nrs_webform: nrs_webform
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

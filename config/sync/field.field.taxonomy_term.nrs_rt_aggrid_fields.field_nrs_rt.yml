@@ -1,0 +1,31 @@
+uuid: bddd7814-89a8-45c6-b0d5-f99ed400b1ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_nrs_rt
+    - taxonomy.vocabulary.nrs_rt_aggrid_fields
+    - taxonomy.vocabulary.nrs_rt_list
+_core:
+  default_config_hash: IPvNHbV-I6EgW6AmVMgMfHrfJS95C9kFnwM-DAP3x8s
+id: taxonomy_term.nrs_rt_aggrid_fields.field_nrs_rt
+field_name: field_nrs_rt
+entity_type: taxonomy_term
+bundle: nrs_rt_aggrid_fields
+label: 'NRS RT'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      nrs_rt_list: nrs_rt_list
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

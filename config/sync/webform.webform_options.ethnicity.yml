@@ -1,4 +1,4 @@
-uuid: 1782906b-8d2c-49fe-b92b-586a58bbeab4
+uuid: c18270c2-3611-44c6-9024-2ae0e3b4c73a
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - webform
 _core:
-  default_config_hash: pIPgrAC82wE2GAk1mOv2UvMYv71YQe4VT8667QIYdvI
+  default_config_hash: 6nXpQB1Cp5ph6X-hWTlyCv4xrnWkFUEMfUnppDKt1Bk
 id: ethnicity
 label: Ethnicity
 category: Demographic

@@ -1,9 +1,9 @@
-uuid: e3178ee7-8325-41a4-9abc-ff7ef3d02280
+uuid: c01f1595-fc26-4fce-98fe-105628eaf92f
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: BCM-vV1zzRaLHN18dqAR_CuGOj8AFJvTx7BKl_8Gcxc
+  default_config_hash: MTFz451bvVLj_1_uK7r_9jVd2KpfRPCDq9m-xbt-OIs
 id: tools
 label: Tools
 description: 'User tool links, often added by modules'

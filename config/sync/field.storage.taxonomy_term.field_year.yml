@@ -1,0 +1,22 @@
+uuid: d8a72602-c6ae-4aea-9a63-2466bb1002a4
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: O1CljSV9M1W-D-rOns0XLdkYiKFp26IBjzwAdSPgNEk
+id: taxonomy_term.field_year
+field_name: field_year
+entity_type: taxonomy_term
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

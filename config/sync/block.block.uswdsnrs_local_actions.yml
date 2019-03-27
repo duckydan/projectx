@@ -1,0 +1,20 @@
+uuid: 56a1de2a-43d0-45da-8bba-733b45d1dbd3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - uswdsnrs
+_core:
+  default_config_hash: xZH-Cv01QoH9Hx5tgK0gzR1uOSebsQXiIPgM5fQIIZU
+id: uswdsnrs_local_actions
+theme: uswdsnrs
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

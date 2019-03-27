@@ -1,0 +1,35 @@
+uuid: 22cfaf8c-045f-4165-a414-d0c8d38c480f
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.full
+    - field.field.taxonomy_term.nrs_rt_list.field_content_type
+    - field.field.taxonomy_term.nrs_rt_list.field_form_mode
+    - field.field.taxonomy_term.nrs_rt_list.field_mod_year_page_num
+    - field.field.taxonomy_term.nrs_rt_list.field_rt_number
+    - field.field.taxonomy_term.nrs_rt_list.field_rt_optional
+    - field.field.taxonomy_term.nrs_rt_list.field_rt_title
+    - taxonomy.vocabulary.nrs_rt_list
+_core:
+  default_config_hash: m_Ij-Eyq9UKbmjzVJoX3JiDY04MTiwrPyw3ejcGKI8U
+id: taxonomy_term.nrs_rt_list.full
+targetEntityType: taxonomy_term
+bundle: nrs_rt_list
+mode: full
+content:
+  field_rt_title:
+    weight: 1
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  description: true
+  field_content_type: true
+  field_form_mode: true
+  field_mod_year_page_num: true
+  field_rt_number: true
+  field_rt_optional: true

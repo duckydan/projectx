@@ -1,0 +1,21 @@
+uuid: bd36b395-8ea9-4c9d-b659-6b8a76bcfbbf
+langcode: en
+status: true
+dependencies:
+  module:
+    - aggrid
+    - node
+_core:
+  default_config_hash: u_BlaUR1DPluZBf7YgbRhAJZWT6w4hOGCun_HpcekhQ
+id: node.field_nrs_rt_data_3
+field_name: field_nrs_rt_data_3
+entity_type: node
+type: aggrid
+settings: {  }
+module: aggrid
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

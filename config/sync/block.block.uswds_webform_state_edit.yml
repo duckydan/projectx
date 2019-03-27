@@ -1,0 +1,57 @@
+uuid: 203ad5a0-5e5d-4fe1-b547-43e97dc5741f
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - node
+    - system
+    - user
+  theme:
+    - uswds
+_core:
+  default_config_hash: qDar5pqSmx3PZjtaxoiUJhgY0eTUT5eatzg2cTlMbhs
+id: uswds_webform_state_edit
+theme: uswds
+region: content
+weight: -2
+provider: null
+plugin: 'entity_view:node'
+settings:
+  id: 'entity_view:node'
+  label: 'NRS Webform - State Edit'
+  provider: ctools
+  label_display: '0'
+  view_mode: nrs_webform_edit
+  context_mapping:
+    entity: '@node.node_route_context:node'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/nrs/*/*/*/edit'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+      state_user: state_user
+      state_administrator: state_administrator
+      federal_user: federal_user
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  node_type:
+    id: node_type
+    bundles:
+      nrs_webform: nrs_webform
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      nrs_webform: nrs_webform
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

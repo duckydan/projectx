@@ -1,4 +1,4 @@
-uuid: 2bf07575-114e-4060-be19-4f57a962c7b1
+uuid: d9162ce4-8cb4-4d39-a26e-5693b13ef250
 langcode: en
 status: true
 dependencies:
@@ -9,11 +9,11 @@ dependencies:
   theme:
     - uswds
 _core:
-  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
+  default_config_hash: Rd3l_p64-9j350ENhLViUTN24BSb4KCq30V3nJfGpYk
 id: uswds_account_menu
 theme: uswds
-region: secondary_menu
-weight: 0
+region: header_top
+weight: -4
 provider: null
 plugin: 'system_menu_block:account'
 settings:
@@ -22,5 +22,5 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 1
+  depth: 2
 visibility: {  }

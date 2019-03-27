@@ -1,0 +1,36 @@
+uuid: d1eddc5b-8e3e-469c-ab7e-6a29b34d0d75
+langcode: en
+status: true
+dependencies:
+  module:
+    - nrs_rt
+    - system
+    - user
+  theme:
+    - uswdsnrs
+_core:
+  default_config_hash: KGsV4Kr-0AdHIpRjRtHFa5EpWxaVpJ9X6hF7dCKCi4Y
+id: stateprogressbar
+theme: uswdsnrs
+region: content
+weight: 0
+provider: null
+plugin: progress_bar_block
+settings:
+  id: progress_bar_block
+  label: 'State Progress Bar'
+  provider: nrs_rt
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/rt/*/2018'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

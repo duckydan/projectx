@@ -1,0 +1,54 @@
+uuid: 7e512f97-b109-4e63-9b5d-f190a5b014af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.nrs_rt_program.field_allow_reporting
+    - field.field.taxonomy_term.nrs_rt_program.field_nrs_rt_list
+    - field.field.taxonomy_term.nrs_rt_program.field_states_and_territories
+    - field.field.taxonomy_term.nrs_rt_program.field_year
+    - taxonomy.vocabulary.nrs_rt_program
+_core:
+  default_config_hash: hc4MgU6ZmlVqXCIbu7x-Rda7Atxf0nhD3AjK0LyKrYc
+id: taxonomy_term.nrs_rt_program.default
+targetEntityType: taxonomy_term
+bundle: nrs_rt_program
+mode: default
+content:
+  field_allow_reporting:
+    weight: 2
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_nrs_rt_list:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_states_and_territories:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_year:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: '20## (July 1, 20## - June 30, 20##)'
+    third_party_settings: {  }
+hidden:
+  description: true
+  path: true

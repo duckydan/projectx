@@ -1,0 +1,25 @@
+uuid: db77a3c8-c3be-4c99-9202-9d532fed7c8e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sevennrs
+_core:
+  default_config_hash: VjJCELoA3b5il32848OlX0-bUC3lAOgQcv-OExuDsH0
+id: sevennrs_branding
+theme: sevennrs
+region: sidebar_first
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

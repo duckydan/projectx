@@ -1,0 +1,24 @@
+uuid: 26d24097-770f-48d8-ad8c-0d9ef0d02022
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.nrs_webform
+_core:
+  default_config_hash: 1CfiS0osANxTFRk0lmGlTmLHoTEjPAJToJczndwKXUQ
+id: node.nrs_webform.promote
+field_name: promote
+entity_type: node
+bundle: nrs_webform
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

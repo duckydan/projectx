@@ -1,0 +1,25 @@
+uuid: b9d3c9cd-a67a-4ef8-8956-01c391f07332
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+_core:
+  default_config_hash: ehsqg3aTbD36hHEuAbMpZQ1JHGF9Jqs4OjnS0KjNeGg
+id: us_states_and_territories
+label: 'US States and Territories'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/states/[term:field_state_abbr]'
+selection_criteria:
+  4a9895a8-3678-4ef4-9ed2-b2aa7f148b30:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      states_and_territories: states_and_territories
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 4a9895a8-3678-4ef4-9ed2-b2aa7f148b30
+selection_logic: and
+weight: -5
+relationships: {  }

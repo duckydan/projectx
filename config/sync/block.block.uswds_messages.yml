@@ -1,4 +1,4 @@
-uuid: 7c7cc93e-2a24-4bd0-8523-2ab62087c6e5
+uuid: 5f488bde-9773-4117-884a-8b0613177ebe
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   theme:
     - uswds
 _core:
-  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+  default_config_hash: Oikaayf0COCAS6F4mn_yvS-ELHgCo8x5NdsG49WX2fA
 id: uswds_messages
 theme: uswds
 region: highlighted
-weight: 0
+weight: -6
 provider: null
 plugin: system_messages_block
 settings:

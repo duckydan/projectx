@@ -1,4 +1,4 @@
-admin: seven
-default: uswds
+admin: nrs_adminimal_theme
+default: uswdsnrs
 _core:
-  default_config_hash: fOjer9hADYYnbCJVZMFZIIM1azTFWyg84ZkFDHfAbUg
+  default_config_hash: RnfLYOeIz9A3_gWTLLBcnP5aqUvrmF6e6P4u89w0Sok

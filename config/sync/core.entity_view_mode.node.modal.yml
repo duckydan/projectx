@@ -1,0 +1,12 @@
+uuid: bfd1c176-fed3-43c3-94e6-759dffe6090e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: EfpeiMygQxGWUIaJx7DPBAZuySyUxaDnxXqAIbx60So
+id: node.modal
+label: Modal
+targetEntityType: node
+cache: true

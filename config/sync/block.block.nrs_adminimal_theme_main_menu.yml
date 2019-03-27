@@ -1,0 +1,26 @@
+uuid: 97aa6395-6c5a-4af5-bf01-c67d06251cf8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - nrs_adminimal_theme
+_core:
+  default_config_hash: HNpY3UXt5yAsjlRj893hQwWKvC0ZtgSHaw41_NsysDw
+id: nrs_adminimal_theme_main_menu
+theme: nrs_adminimal_theme
+region: primary_menu
+weight: -7
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

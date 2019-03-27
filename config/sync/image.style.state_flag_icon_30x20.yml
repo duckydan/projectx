@@ -1,0 +1,16 @@
+uuid: 68c9a2da-cc7f-4ed2-8d1b-652f705bcd83
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 9NpsCk-RaZdj5T6eVsQNcY-FN_HkZfmez0X-XvIVtQ8
+name: state_flag_icon_30x20
+label: 'State Flag Icon 30x20'
+effects:
+  d8101677-a672-49d9-ad4b-6acd21f227f4:
+    uuid: d8101677-a672-49d9-ad4b-6acd21f227f4
+    id: image_resize
+    weight: 1
+    data:
+      width: 30
+      height: 20

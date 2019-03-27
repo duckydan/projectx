@@ -1,0 +1,68 @@
+uuid: b2b70f79-15ba-4287-b700-a9e086dbdad2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: FMn6BVPu0w7hpGzdT2LikMFl9oXLNnK-JKur0e1fR0E
+id: wioa_2016_table_spr
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - 'Participant data'
+migration_group: nrs
+label: 'WIOA 2016 Table SPR'
+source:
+  plugin: csv
+  scheme: public
+  path: modules/custom/nrs_migrate/data/wioa_2016_table_spr.csv
+  delimiter: ;
+  header_row_count: 0
+  keys:
+    - program_id
+    - list_id
+    - state_id
+  column_names:
+    -
+      program_id: program_id
+    -
+      list_id: list_id
+    -
+      state_id: state_id
+    -
+      data_1: data_1
+    -
+      data_2: data_2
+    -
+      data_3: data_3
+process:
+  title:
+    plugin: default_value
+    default_value: 'Statewide Performance Report'
+  field_nrs_rt_program/target_id: program_id
+  field_nrs_rt_list/target_id: list_id
+  field_state/target_id: state_id
+  field_nrs_rt_data_1/value: data_1
+  field_nrs_rt_data_1/aggrid_id:
+    plugin: default_value
+    default_value: wioa_2016_table_spr_si
+  field_nrs_rt_data_2/value: data_2
+  field_nrs_rt_data_2/aggrid_id:
+    plugin: default_value
+    default_value: wioa_2016_table_spr_pc
+  field_nrs_rt_data_3/value: data_3
+  field_nrs_rt_data_3/aggrid_id:
+    plugin: default_value
+    default_value: wioa_2016_table_spr_eb
+  status:
+    plugin: default_value
+    default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+destination:
+  plugin: 'entity:node'
+  default_bundle: nrs_rt_statistical
+migration_dependencies:
+  required: {  }
+  optional: {  }

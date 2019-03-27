@@ -1,0 +1,83 @@
+uuid: 443f37e7-bca6-4f6c-814e-bb1049afc3df
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.nrs_rt_data_quality_checklist
+    - node.type.nrs_rt_documents
+    - node.type.nrs_rt_financial
+    - node.type.nrs_rt_statistical
+    - node.type.nrs_webform
+  module:
+    - content_moderation
+_core:
+  default_config_hash: JsterVvFMvhqgKceG9rBx3t0NgaD0IUjvSxXHMjSOak
+id: nrs_table_publication
+label: 'NRS Table Publication'
+type: content_moderation
+type_settings:
+  states:
+    draft:
+      published: false
+      default_revision: false
+      label: 'In Progress'
+      weight: -4
+    final_state_review:
+      published: false
+      default_revision: true
+      label: 'Awaiting Review'
+      weight: 4
+    not_started:
+      published: false
+      default_revision: false
+      label: 'Not Started'
+      weight: -10
+    published:
+      label: Published
+      published: true
+      default_revision: true
+      weight: 10
+  transitions:
+    awaiting_review_to_published:
+      label: 'Awaiting Review to Published'
+      from:
+        - final_state_review
+      to: published
+      weight: 11
+    draft_to_final_state_review:
+      label: 'In Progress to Awaiting Review'
+      from:
+        - draft
+      to: final_state_review
+      weight: -9
+    final_state_review_to_draft:
+      label: 'Awaiting Review to In Progress'
+      from:
+        - final_state_review
+      to: draft
+      weight: 5
+    in_progress_to_in_progress:
+      label: 'In Progress to In Progress'
+      from:
+        - draft
+      to: draft
+      weight: 7
+    p:
+      label: 'Published to Published'
+      from:
+        - published
+      to: published
+      weight: 10
+    state_review_to_state_review:
+      label: 'Awaiting Review to Awaiting Review'
+      from:
+        - final_state_review
+      to: final_state_review
+      weight: 8
+  entity_types:
+    node:
+      - nrs_rt_data_quality_checklist
+      - nrs_rt_documents
+      - nrs_rt_financial
+      - nrs_rt_statistical
+      - nrs_webform

@@ -1,0 +1,70 @@
+uuid: 15173b92-fb02-4b9a-9a4d-23d417f2b393
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.states_and_territories.field_area
+    - field.field.taxonomy_term.states_and_territories.field_region
+    - field.field.taxonomy_term.states_and_territories.field_state_abbr
+    - field.field.taxonomy_term.states_and_territories.field_state_cap
+    - field.field.taxonomy_term.states_and_territories.field_state_flag
+    - image.style.state_flag_550x325
+    - taxonomy.vocabulary.states_and_territories
+  module:
+    - image
+    - text
+_core:
+  default_config_hash: PrLsjRQMuy63q-xxFzjkVcS1fpdbOAR4SwFbQSNNYAk
+id: taxonomy_term.states_and_territories.default
+targetEntityType: taxonomy_term
+bundle: states_and_territories
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_area:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_region:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_state_abbr:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_state_cap:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_state_flag:
+    weight: 1
+    label: above
+    settings:
+      image_style: state_flag_550x325
+    third_party_settings: {  }
+    type: image_url
+    region: content
+hidden: {  }

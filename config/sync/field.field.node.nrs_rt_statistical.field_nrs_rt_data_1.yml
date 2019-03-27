@@ -1,0 +1,23 @@
+uuid: eeb09c00-580a-45c3-a6cc-f43aa5e8b8fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nrs_rt_data_1
+    - node.type.nrs_rt_statistical
+  module:
+    - aggrid
+_core:
+  default_config_hash: AdWkwCdRnKO3WVJmNHK8wQU_BxMkxubkHnVROIIJqQM
+id: node.nrs_rt_statistical.field_nrs_rt_data_1
+field_name: field_nrs_rt_data_1
+entity_type: node
+bundle: nrs_rt_statistical
+label: 'NRS RT Data 1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: aggrid

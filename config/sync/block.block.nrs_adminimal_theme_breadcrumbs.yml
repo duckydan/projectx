@@ -1,0 +1,22 @@
+uuid: b081a06a-e226-47ea-ab4e-fb1d83815b23
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nrs_adminimal_theme
+_core:
+  default_config_hash: KOVDkGzPgNzyLdPMpTltY4SNmZgCEDaOQxKssM0YH-E
+id: nrs_adminimal_theme_breadcrumbs
+theme: nrs_adminimal_theme
+region: content
+weight: -8
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

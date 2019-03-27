@@ -1,0 +1,38 @@
+uuid: f10727b0-c75e-46f5-b325-ce75e67a2431
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - nrs_adminimal_theme
+_core:
+  default_config_hash: iCN9pePPhV944cDyCyds21G__J9VDYk-Luuv7t0QwfY
+id: nrs_adminimal_theme_local_tasks
+theme: nrs_adminimal_theme
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      federal_user: federal_user
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: '/rt/*/*/*/edit'
+    negate: true
+    context_mapping: {  }

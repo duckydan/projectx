@@ -1,0 +1,20 @@
+uuid: 8879a357-4da8-426a-9fe1-3f128e70c5b3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sevennrs
+_core:
+  default_config_hash: NHplci5x9RPu2PrG10fkTz39hBCZjaMAbiTU7v8mXOo
+id: sevennrs_page_title
+theme: sevennrs
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,4 +1,4 @@
-uuid: 6cbd0086-2a4f-474e-a167-573710b22b0d
+uuid: 6aa944fe-e80f-490b-8321-ecab40968b48
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   theme:
     - uswds
 _core:
-  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+  default_config_hash: FZE3cM6QVWf3gxVj1Trybyn2YcGNA0RAeP9m2pT5e30
 id: uswds_breadcrumbs
 theme: uswds
-region: breadcrumb
-weight: 0
+region: content
+weight: -8
 provider: null
 plugin: system_breadcrumb_block
 settings:

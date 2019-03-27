@@ -1,0 +1,59 @@
+uuid: 05935773-36ae-4052-bdaa-25e17d1a86d3
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.diff
+    - field.field.node.nrs_rt_statistical.field_cross_table_validations
+    - field.field.node.nrs_rt_statistical.field_nrs_rt_data_1
+    - field.field.node.nrs_rt_statistical.field_nrs_rt_data_2
+    - field.field.node.nrs_rt_statistical.field_nrs_rt_data_3
+    - field.field.node.nrs_rt_statistical.field_nrs_rt_list
+    - field.field.node.nrs_rt_statistical.field_nrs_rt_program
+    - field.field.node.nrs_rt_statistical.field_nrs_table_comments
+    - field.field.node.nrs_rt_statistical.field_state
+    - node.type.nrs_rt_statistical
+  module:
+    - user
+_core:
+  default_config_hash: mW8oPfIOk8u08cHaS3zJXdzF0XdlisA1fZJ16SebmAo
+id: node.nrs_rt_statistical.diff
+targetEntityType: node
+bundle: nrs_rt_statistical
+mode: diff
+content:
+  field_nrs_rt_list:
+    weight: 101
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_nrs_rt_program:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_state:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_cross_table_validations: true
+  field_nrs_rt_data_1: true
+  field_nrs_rt_data_2: true
+  field_nrs_rt_data_3: true
+  field_nrs_table_comments: true

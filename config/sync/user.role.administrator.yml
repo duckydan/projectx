@@ -1,11 +1,11 @@
-uuid: 2ae7c7e1-4fff-4234-9832-ce9502e77540
+uuid: 38e9ca5a-a28a-46a8-9ffb-68c3ace78585
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: Om6FEO7vZZMkPIbVvfxtdkWerQ2PvQM4sWUd6Q3ZnfI
+  default_config_hash: HXuWguCVxgoM8hsiRFz_xIUy53eWiRxBRLS8xqVLuVk
 id: administrator
 label: Administrator
-weight: 2
+weight: -3
 is_admin: true
 permissions: {  }

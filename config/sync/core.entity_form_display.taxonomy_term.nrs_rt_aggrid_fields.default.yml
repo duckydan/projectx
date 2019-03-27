@@ -1,0 +1,60 @@
+uuid: 3de2b64e-5f5e-424a-9432-e0e1669bf6c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.nrs_rt_aggrid_fields.field_aggrid_ce
+    - field.field.taxonomy_term.nrs_rt_aggrid_fields.field_nrs_rt
+    - field.field.taxonomy_term.nrs_rt_aggrid_fields.field_nrs_rt_data_field
+    - taxonomy.vocabulary.nrs_rt_aggrid_fields
+  module:
+    - path
+    - text
+_core:
+  default_config_hash: CPzcckc7DW7e7Uq7iOQ0UMJwoBxrcEQE3PWai0lXTGk
+id: taxonomy_term.nrs_rt_aggrid_fields.default
+targetEntityType: taxonomy_term
+bundle: nrs_rt_aggrid_fields
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_aggrid_ce:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_nrs_rt:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_nrs_rt_data_field:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,16 @@
+uuid: e698d124-5382-45e1-981e-14f8498935c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.federal_user
+  module:
+    - user
+_core:
+  default_config_hash: 1Vt32i_XZBbPOez7wT-TmqSzerhyPz6A1On_rzFqXGE
+id: user_add_role_action.federal_user
+label: 'Add the Federal User role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: federal_user

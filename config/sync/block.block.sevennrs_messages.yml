@@ -1,0 +1,22 @@
+uuid: ad83d96e-ab66-4d9f-bd86-6f260f57a686
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sevennrs
+_core:
+  default_config_hash: XCbR2nfnHBSFB-G2MrbpXH9dth6NfoxrtBlyXjrrf6M
+id: sevennrs_messages
+theme: sevennrs
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

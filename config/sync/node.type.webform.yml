@@ -1,4 +1,4 @@
-uuid: 52cebfef-d86d-4354-810c-dec097d2c6c8
+uuid: d3b1b2fc-6459-4eb6-8309-2177712fcbdc
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - webform_node
 _core:
-  default_config_hash: BuY_3PjmYtRTSuvyFORJZUe0-TQiNXEE6yYQ_dkjxW8
+  default_config_hash: AZS_wEmZKmnEj2UwBN0cgS4tVYcQm17KjwoPzcXTM-A
 name: Webform
 type: webform
 description: 'A basic page with a webform attached.'

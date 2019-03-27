@@ -3544,7 +3544,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/devel",
-                "reference": "e5d035913a72c707d631a9ef16085c18820602ce"
+                "reference": "c158263fe05688202f657c970c787df1e1c99a26"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -3556,8 +3556,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0+2-dev",
-                    "datestamp": "1550438884",
+                    "version": "8.x-2.0+3-dev",
+                    "datestamp": "1550441885",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -3616,7 +3616,7 @@
                 "issues": "http://drupal.org/project/devel",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             },
-            "time": "2019-02-17T22:17:00+00:00"
+            "time": "2019-03-12T00:46:53+00:00"
         },
         {
             "name": "drupal/diff",

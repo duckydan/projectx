@@ -1,17 +1,18 @@
-uuid: 310bbed2-8f3c-4cbc-8b4e-929de56310ea
+uuid: 122b5128-7174-48ff-992c-14113452b3df
 langcode: en
 status: true
 dependencies:
   module:
+    - ctools
     - system
   theme:
     - uswds
 _core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+  default_config_hash: 1DPgVy8bNwxC-Cvxyd09H0VXr_SOyfEXGWC2rrDna00
 id: uswds_content
 theme: uswds
 region: content
-weight: 0
+weight: -4
 provider: null
 plugin: system_main_block
 settings:
@@ -19,4 +20,17 @@ settings:
   label: 'Main page content'
   provider: system
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "/nrs/*/*/*\r\n/nrs/*/*/*/*"
+    negate: true
+    context_mapping: {  }
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

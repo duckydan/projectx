@@ -1,4 +1,4 @@
-uuid: dbcf66fd-a23c-4d2d-a14b-0e8fef784d9a
+uuid: 7846974e-7c52-43e0-929b-3aa024e48ff3
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - file
     - user
 _core:
-  default_config_hash: rRWxAX-IQkJ5viACQRovRkC784EyCl9493GU_G23n2Q
+  default_config_hash: 0L0TErNrvovf5kcAzZBI_fELo837kxUti9uj_Hig1T4
 id: files
 label: Files
 module: file
@@ -598,6 +598,7 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+            placeholder: ''
           is_grouped: false
           group_info:
             label: ''
@@ -638,6 +639,7 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+            placeholder: ''
           is_grouped: false
           group_info:
             label: ''

@@ -1,0 +1,24 @@
+uuid: b284ef9f-371c-418b-b49f-b14665ee63b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.nrs_rt_statistical
+_core:
+  default_config_hash: ILG8s0blZ4gTjDPTmAeG0Pd2e1tdRgYg_7_JUoCM05s
+id: node.nrs_rt_statistical.promote
+field_name: promote
+entity_type: node
+bundle: nrs_rt_statistical
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

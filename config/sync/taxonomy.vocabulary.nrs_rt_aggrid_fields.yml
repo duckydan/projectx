@@ -1,0 +1,11 @@
+uuid: 0ef2bfff-f7ed-486b-a327-9c2c2d07d08a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: F5VkeZ6EDoEW4PJoYv2dWY3sKPkBc82VxohUz2__eoM
+name: 'RT ag-Grid fields'
+vid: nrs_rt_aggrid_fields
+description: 'A taxonomy to reference aggrid fields to NRS RT items and ag-Grid config entities.'
+hierarchy: 0
+weight: 0

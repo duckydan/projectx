@@ -1,9 +1,9 @@
-uuid: 30d3e3d6-f112-417a-b806-db24803ce864
+uuid: 743a4e5c-c6ce-49ae-8b69-ee14c4459373
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
+  default_config_hash: 25OmZOjNQoHbQcuuYEPSqay8FYaTrPmyiBstCU0Ck50
 name: Article
 type: article
 description: 'Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'

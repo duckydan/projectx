@@ -1,0 +1,25 @@
+uuid: 3bf1ea86-86a3-47d9-83ce-50ac7079148c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_rt_optional
+    - taxonomy.vocabulary.nrs_rt_list
+_core:
+  default_config_hash: DH1X5Ph8yFvvPOuImZKWZGVqcohqsEjfDW9qpazKg6I
+id: taxonomy_term.nrs_rt_list.field_rt_optional
+field_name: field_rt_optional
+entity_type: taxonomy_term
+bundle: nrs_rt_list
+label: Optional
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

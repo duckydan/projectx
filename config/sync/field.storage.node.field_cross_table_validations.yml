@@ -1,0 +1,22 @@
+uuid: 2699eaba-3705-462e-8742-21950a41294a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: sq31CCKC2Ywt0gZdeOgEru8P8zVchlBU9YS3FB2wknM
+id: node.field_cross_table_validations
+field_name: field_cross_table_validations
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

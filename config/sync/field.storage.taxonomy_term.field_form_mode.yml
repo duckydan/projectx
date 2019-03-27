@@ -1,0 +1,21 @@
+uuid: 2eb6d0a5-902e-472b-a548-770194dd7d15
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: 3p_Cmab2RY3G2z1AcUpAQsRvRMpP46RvIR8ZWJd3Nfk
+id: taxonomy_term.field_form_mode
+field_name: field_form_mode
+entity_type: taxonomy_term
+type: entity_reference
+settings:
+  target_type: entity_form_mode
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

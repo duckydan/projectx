@@ -1,0 +1,16 @@
+uuid: 0397d950-10ec-49b5-9485-3a5ab22ef3b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.state_administrator
+  module:
+    - user
+_core:
+  default_config_hash: dv2QqtFicwj4z18MOc6LRG4SNQIViyDNpadOa4CcGJI
+id: user_remove_role_action.state_administrator
+label: 'Remove the State Administrator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: state_administrator

@@ -1,19 +1,15 @@
-uuid: 3ad0f6f2-8946-4c32-85e3-2eb14cdebd82
+uuid: e8015fcd-d626-43cc-97f8-1983e09a061a
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_form
-    - field.field.node.page.field_spreadsheet
     - node.type.page
   module:
-    - aggrid
     - text
     - user
-    - webform
 _core:
-  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+  default_config_hash: 47v7-5xxT3S1yoemEL-JbPx8FeqQovp5Md6eIgyX3W4
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -26,22 +22,9 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_form:
-    weight: 103
-    label: above
-    settings:
-      source_entity: true
-    third_party_settings: {  }
-    type: webform_entity_reference_entity_view
-    region: content
-  field_spreadsheet:
-    weight: 102
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: aggrid_formatter_type
-    region: content
   links:
     weight: 101
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden: {  }

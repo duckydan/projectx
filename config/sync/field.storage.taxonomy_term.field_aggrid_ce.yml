@@ -1,0 +1,22 @@
+uuid: 5c11725d-83e4-4b2c-bd36-cfeaa4c3542f
+langcode: en
+status: true
+dependencies:
+  module:
+    - aggrid
+    - taxonomy
+_core:
+  default_config_hash: Oz8uKsxj7D95dtSgoGb85MLzB5ZYxtYA4D9LmxeJ9b8
+id: taxonomy_term.field_aggrid_ce
+field_name: field_aggrid_ce
+entity_type: taxonomy_term
+type: entity_reference
+settings:
+  target_type: aggrid
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

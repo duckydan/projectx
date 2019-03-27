@@ -1,0 +1,56 @@
+uuid: 4730c64b-4959-4292-b705-a8819deeebb5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jkgo1xYhzl647PmVKp-ghgvmZTLc3mX0rELjXL8n07k
+id: wioa_2016_table_5a
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - 'Participant data'
+migration_group: nrs
+label: 'WIOA 2016 Table 5a'
+source:
+  plugin: csv
+  scheme: public
+  path: modules/custom/nrs_migrate/data/wioa_2016_table_5a.csv
+  delimiter: ;
+  header_row_count: 0
+  keys:
+    - program_id
+    - list_id
+    - state_id
+  column_names:
+    -
+      program_id: program_id
+    -
+      list_id: list_id
+    -
+      state_id: state_id
+    -
+      data: data
+process:
+  title:
+    plugin: default_value
+    default_value: 'Outcome Achievement for Participants in Distance Education'
+  field_nrs_rt_program/target_id: program_id
+  field_nrs_rt_list/target_id: list_id
+  field_state/target_id: state_id
+  field_nrs_rt_data_1/value: data
+  field_nrs_rt_data_1/aggrid_id:
+    plugin: default_value
+    default_value: wioa_2016_table_5a
+  status:
+    plugin: default_value
+    default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+destination:
+  plugin: 'entity:node'
+  default_bundle: nrs_rt_statistical
+migration_dependencies:
+  required: {  }
+  optional: {  }

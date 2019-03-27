@@ -1,0 +1,38 @@
+uuid: 1ce95fe2-a22f-4ffe-91d1-45e9b48c9a12
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: XFM95AFfAOcK2h1JqGcZAX3HBn9--R7fEd5C_bncKSA
+id: state_administrator
+label: 'State Administrator'
+weight: -6
+is_admin: null
+permissions:
+  - 'access comments'
+  - 'access nrs_data_workflow workflow_transition form'
+  - 'access workbench'
+  - 'create nrs_data_workflow workflow_transition'
+  - 'delete own webform submission'
+  - 'edit any nrs_webform content'
+  - 'edit any webform submission'
+  - 'edit own comments'
+  - 'edit own nrs_data_workflow workflow_transition'
+  - 'edit own nrs_webform content'
+  - 'edit own webform submission'
+  - 'edit webform submissions own node'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'use nrs_table_publication transition draft_to_final_state_review'
+  - 'use nrs_table_publication transition final_state_review_to_draft'
+  - 'use nrs_table_publication transition final_state_review_to_octae_review'
+  - 'use nrs_table_publication transition in_progress_to_in_progress'
+  - 'use nrs_table_publication transition octae_review_to_octae_review'
+  - 'use nrs_table_publication transition octae_review_to_state_review'
+  - 'use nrs_table_publication transition state_review_to_state_review'
+  - 'use workbench access'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own webform submission'
+  - 'view webform submissions own node'
+  - 'view workbench access information'

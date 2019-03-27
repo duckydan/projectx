@@ -1,0 +1,23 @@
+uuid: 665a93f2-da33-4c7e-8c86-cd4b22db784c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: ddq-YdZM5wMvMYf7OU2KnDG-gIwfmwRwM86x2b8ybeg
+id: node.field_rt_recipientid
+field_name: field_rt_recipientid
+entity_type: node
+type: string
+settings:
+  max_length: 15
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

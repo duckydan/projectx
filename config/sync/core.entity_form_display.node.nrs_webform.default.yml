@@ -1,0 +1,95 @@
+uuid: ea4ca240-3a24-4454-a0c4-1bfde3eb5d66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.nrs_webform.body
+    - field.field.node.nrs_webform.field_dqc_instance
+    - field.field.node.nrs_webform.field_nrs_rt_list
+    - field.field.node.nrs_webform.field_nrs_rt_program
+    - field.field.node.nrs_webform.field_nrs_table_comments
+    - field.field.node.nrs_webform.field_number
+    - field.field.node.nrs_webform.field_state
+    - field.field.node.nrs_webform.webform
+    - node.type.nrs_webform
+  module:
+    - comment
+    - content_moderation
+    - webform
+_core:
+  default_config_hash: tROINmOfbhDbg_iq4xzYN9KRwZ2mwHWNLXqnxGr_76A
+id: node.nrs_webform.default
+targetEntityType: node
+bundle: nrs_webform
+mode: default
+content:
+  field_dqc_instance:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_nrs_rt_list:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_nrs_rt_program:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_nrs_table_comments:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  field_number:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_state:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  webform:
+    weight: 5
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
+hidden:
+  body: true
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

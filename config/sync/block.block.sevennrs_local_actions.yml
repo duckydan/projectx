@@ -1,0 +1,20 @@
+uuid: f7dc9d07-33af-4d9d-acc5-2114aa3e1305
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sevennrs
+_core:
+  default_config_hash: 5MmEtfkYPd5ZRiD2lJZnRHAKTslLZZfPsUUbNOuXP0w
+id: sevennrs_local_actions
+theme: sevennrs
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

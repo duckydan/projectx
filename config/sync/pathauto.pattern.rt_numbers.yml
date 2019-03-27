@@ -1,0 +1,25 @@
+uuid: 76954dc5-eeb9-4240-b5af-1b43c071fd1d
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+_core:
+  default_config_hash: yQ4mZ7c4Yq_LOqrz1Mk3DVzYpdmA8IGEPfnHZP35CvU
+id: rt_numbers
+label: 'RT Numbers'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/rt/numbers/[term:name]'
+selection_criteria:
+  204cbdd7-78d6-4875-a80a-7c763bb2d56d:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      nrs_rt_numbers: nrs_rt_numbers
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 204cbdd7-78d6-4875-a80a-7c763bb2d56d
+selection_logic: and
+weight: -5
+relationships: {  }

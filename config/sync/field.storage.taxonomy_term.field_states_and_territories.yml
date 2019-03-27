@@ -1,0 +1,21 @@
+uuid: 0af8abf9-73a4-4ce7-915b-59e1e6d72e1e
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: 6izaPHrxs1OF-GwZ953udPdLNOhWBR09si_XUUIxhRs
+id: taxonomy_term.field_states_and_territories
+field_name: field_states_and_territories
+entity_type: taxonomy_term
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,8 +1,8 @@
-uuid: 571d4397-48df-4358-bc66-c8a2a6bcb286
+uuid: 627f2922-caf1-411a-a246-c3508e373b38
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: U5VlGjd_SfV0Qm_EfnaynOfc549cNscFAx48JfYoMRI
+  default_config_hash: RQm_oYzHFOWWoGOxIN4sOMljZ_F3WyRV9-oBcPhYM7U
 id: default
 label: Default

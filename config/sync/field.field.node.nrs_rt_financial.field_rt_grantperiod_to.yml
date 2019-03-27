@@ -1,0 +1,23 @@
+uuid: 0777bfc3-9e3e-468d-a4aa-d1191c0b228a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rt_grantperiod_to
+    - node.type.nrs_rt_financial
+  module:
+    - datetime
+_core:
+  default_config_hash: x1y-K1bFgjB3aCPxbDaKZRrMvMHnyXZMAEEXILfL6xA
+id: node.nrs_rt_financial.field_rt_grantperiod_to
+field_name: field_rt_grantperiod_to
+entity_type: node
+bundle: nrs_rt_financial
+label: 'To:'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,31 @@
+uuid: 16708f7c-2138-424d-a0e8-58d50364afd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_nrs_rt_list
+    - taxonomy.vocabulary.nrs_rt_list
+    - taxonomy.vocabulary.nrs_rt_program
+_core:
+  default_config_hash: EQKZEin1pc9gaRXQ2w2du1euA0x_4VlsHk318iDtJgA
+id: taxonomy_term.nrs_rt_program.field_nrs_rt_list
+field_name: field_nrs_rt_list
+entity_type: taxonomy_term
+bundle: nrs_rt_program
+label: 'RT List'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      nrs_rt_list: nrs_rt_list
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

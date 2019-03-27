@@ -1,0 +1,50 @@
+uuid: be037746-322f-4228-91de-2dea4ec80fed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.nrs_rt_aggrid_fields.field_aggrid_ce
+    - field.field.taxonomy_term.nrs_rt_aggrid_fields.field_nrs_rt
+    - field.field.taxonomy_term.nrs_rt_aggrid_fields.field_nrs_rt_data_field
+    - taxonomy.vocabulary.nrs_rt_aggrid_fields
+  module:
+    - text
+_core:
+  default_config_hash: 8KvTvROBJ6mlYAoCOM2DfTzlvqA4TX23qhBLdkIgKVE
+id: taxonomy_term.nrs_rt_aggrid_fields.default
+targetEntityType: taxonomy_term
+bundle: nrs_rt_aggrid_fields
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_aggrid_ce:
+    weight: 3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_nrs_rt:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_nrs_rt_data_field:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

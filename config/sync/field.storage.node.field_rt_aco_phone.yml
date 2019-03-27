@@ -1,0 +1,23 @@
+uuid: c1dff699-4b23-4884-b584-a5cd52ed0607
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: bLJn9uM5yM1A2dsFbLWjQQ4cyaWFj3yKmI6WXZ_h1MI
+id: node.field_rt_aco_phone
+field_name: field_rt_aco_phone
+entity_type: node
+type: string
+settings:
+  max_length: 30
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

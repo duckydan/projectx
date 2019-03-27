@@ -1,0 +1,74 @@
+uuid: 351d9921-0a0e-4829-ac24-4cb9819227c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.node.state_spr
+    - field.field.node.nrs_rt_statistical.field_cross_table_validations
+    - field.field.node.nrs_rt_statistical.field_nrs_rt_data_1
+    - field.field.node.nrs_rt_statistical.field_nrs_rt_data_2
+    - field.field.node.nrs_rt_statistical.field_nrs_rt_data_3
+    - field.field.node.nrs_rt_statistical.field_nrs_rt_list
+    - field.field.node.nrs_rt_statistical.field_nrs_rt_program
+    - field.field.node.nrs_rt_statistical.field_nrs_table_comments
+    - field.field.node.nrs_rt_statistical.field_state
+    - node.type.nrs_rt_statistical
+  module:
+    - aggrid
+    - comment
+    - content_moderation
+_core:
+  default_config_hash: 4lK0heBBH5_2cRMqgJhP73Bqdz08LIG2xisNYq7jD5s
+id: node.nrs_rt_statistical.state_spr
+targetEntityType: node
+bundle: nrs_rt_statistical
+mode: state_spr
+content:
+  field_nrs_rt_data_1:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: aggrid_widget_type
+    region: content
+  field_nrs_rt_data_2:
+    type: aggrid_widget_type
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_nrs_rt_data_3:
+    type: aggrid_widget_type
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_nrs_table_comments:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 3
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 4
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_cross_table_validations: true
+  field_nrs_rt_list: true
+  field_nrs_rt_program: true
+  field_state: true
+  path: true
+  promote: true
+  sticky: true
+  title: true
+  uid: true

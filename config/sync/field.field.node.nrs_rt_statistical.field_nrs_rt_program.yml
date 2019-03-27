@@ -1,0 +1,31 @@
+uuid: 4f229cb1-99b0-41f9-8043-4de8dac71062
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nrs_rt_program
+    - node.type.nrs_rt_statistical
+    - taxonomy.vocabulary.nrs_rt_program
+_core:
+  default_config_hash: SLXunQkUIT5iZxX4hb6qS7SZaBNBFb-ExxL-XorXBUM
+id: node.nrs_rt_statistical.field_nrs_rt_program
+field_name: field_nrs_rt_program
+entity_type: node
+bundle: nrs_rt_statistical
+label: Program
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      nrs_rt_program: nrs_rt_program
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

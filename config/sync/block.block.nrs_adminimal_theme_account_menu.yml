@@ -1,0 +1,26 @@
+uuid: 8fa16c6c-1755-4af6-8934-dc5c957094f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - nrs_adminimal_theme
+_core:
+  default_config_hash: rYx2kX_9Z-OueS_I4BXrPxbAhWn-r2hZDIg26n4ZPMA
+id: nrs_adminimal_theme_account_menu
+theme: nrs_adminimal_theme
+region: secondary_menu
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

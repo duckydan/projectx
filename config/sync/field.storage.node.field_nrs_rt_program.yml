@@ -1,0 +1,22 @@
+uuid: 23f194c3-d46f-47cf-8b36-f49baae76020
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: aB7AX6Ah7Oh3gDZhp-pPPJ2c4DUe0mU86RQVX4MTAVI
+id: node.field_nrs_rt_program
+field_name: field_nrs_rt_program
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

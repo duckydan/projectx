@@ -1,0 +1,26 @@
+uuid: 85a5e3a6-3f62-48bb-88b6-30eaf67c15f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nrs_rt_data_1
+    - node.type.rt_admin
+  module:
+    - aggrid
+_core:
+  default_config_hash: zF9LVtmezS-Jr2i1wY7AsvkgCo3_mbw_e2Evw0v8wMs
+id: node.rt_admin.field_nrs_rt_data_1
+field_name: field_nrs_rt_data_1
+entity_type: node
+bundle: rt_admin
+label: 'Grant Allocations Table'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    aggrid_id: wia_2012_admin_gat
+    value: null
+default_value_callback: ''
+settings: {  }
+field_type: aggrid

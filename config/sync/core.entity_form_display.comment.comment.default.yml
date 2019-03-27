@@ -1,4 +1,4 @@
-uuid: 7756c81d-d545-408c-96bb-061ca9582d65
+uuid: 5358ae50-8c26-48c7-8b64-3df36037fc5e
 langcode: en
 status: true
 dependencies:
@@ -6,37 +6,26 @@ dependencies:
     - comment.type.comment
     - field.field.comment.comment.comment_body
   module:
-    - field_layout
-    - layout_discovery
     - text
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
-  default_config_hash: I0Pa0aQvT_jawlPo9oz4FE3h_ickc55dYKTPl6gILes
+  default_config_hash: dF6rEMbjvvfiXi5TChmSevppsO0aqdFlG3KydDvBCVM
 id: comment.comment.default
 targetEntityType: comment
 bundle: comment
 mode: default
 content:
   author:
-    weight: -2
+    weight: 0
     region: content
+    settings: {  }
+    third_party_settings: {  }
   comment_body:
     type: text_textarea
-    weight: 11
+    weight: 1
     region: content
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-  subject:
-    type: string_textfield
-    weight: 10
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-hidden: {  }
+hidden:
+  subject: true

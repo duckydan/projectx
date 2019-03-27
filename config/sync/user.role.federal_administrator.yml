@@ -1,0 +1,11 @@
+uuid: b2f1247d-b801-46c4-875c-ccc5430e9152
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: CgXnH4PY1H15hzWHc7qnVaBk0wLR9gT4Dq7fb2M5I5g
+id: federal_administrator
+label: 'Federal Administrator'
+weight: -4
+is_admin: null
+permissions: {  }

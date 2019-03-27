@@ -1,0 +1,54 @@
+uuid: bcc27750-4490-4c2b-9d87-4aee25c1e3c2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2axK_3f7zVd7UUtPE1z-JJAF3d-iYboTBfTPv6QlW1o
+id: federal_user
+label: 'Federal User'
+weight: -5
+is_admin: null
+permissions:
+  - 'access comments'
+  - 'access nrs_data_workflow workflow_transition form'
+  - 'access workbench'
+  - 'bypass node access'
+  - 'bypass workbench access'
+  - 'create nrs_data_workflow workflow_transition'
+  - 'create nrs_webform content'
+  - 'delete any nrs_webform content'
+  - 'delete nrs_webform revisions'
+  - 'delete own nrs_webform content'
+  - 'delete own webform submission'
+  - 'edit any nrs_webform content'
+  - 'edit any webform submission'
+  - 'edit own comments'
+  - 'edit own nrs_data_workflow workflow_transition'
+  - 'edit own nrs_webform content'
+  - 'edit own webform submission'
+  - 'edit webform submissions own node'
+  - 'post comments'
+  - 'revert nrs_webform revisions'
+  - 'skip comment approval'
+  - 'use editorial transition archive'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition archived_published'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
+  - 'use nrs_table_publication transition draft_to_final_state_review'
+  - 'use nrs_table_publication transition final_state_review_to_draft'
+  - 'use nrs_table_publication transition final_state_review_to_octae_review'
+  - 'use nrs_table_publication transition in_progress_to_in_progress'
+  - 'use nrs_table_publication transition octae_review_to_octae_review'
+  - 'use nrs_table_publication transition octae_review_to_published'
+  - 'use nrs_table_publication transition octae_review_to_state_review'
+  - 'use nrs_table_publication transition p'
+  - 'use nrs_table_publication transition published_to_octae_review'
+  - 'use nrs_table_publication transition state_review_to_state_review'
+  - 'use workbench access'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view nrs_webform revisions'
+  - 'view own webform submission'
+  - 'view webform submissions own node'
+  - 'view workbench access information'

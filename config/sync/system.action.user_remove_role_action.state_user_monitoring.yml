@@ -1,0 +1,16 @@
+uuid: f7cfdb15-4e79-4ab1-be49-af9f6dc5aa49
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.state_user_monitoring
+  module:
+    - user
+_core:
+  default_config_hash: VjL6nI4jdP1PiHPLhnnbQ68czkkB2SxmaCKiPzvlUIE
+id: user_remove_role_action.state_user_monitoring
+label: 'Remove the State User - Monitoring role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: state_user_monitoring

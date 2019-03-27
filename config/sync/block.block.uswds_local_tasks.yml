@@ -1,15 +1,17 @@
-uuid: 6275b880-6e84-41a3-b3a6-74400d972734
+uuid: 87c913ae-c523-4dcf-8b46-b94c57a51cad
 langcode: en
 status: true
 dependencies:
+  module:
+    - user
   theme:
     - uswds
 _core:
-  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+  default_config_hash: n0SY2021UbctU9kv3gBvVFUu-Yj2tsdlI172JwN5jOU
 id: uswds_local_tasks
 theme: uswds
 region: content
-weight: -40
+weight: -6
 provider: null
 plugin: local_tasks_block
 settings:
@@ -19,4 +21,12 @@ settings:
   label_display: '0'
   primary: true
   secondary: true
-visibility: {  }
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+      federal_user: federal_user
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

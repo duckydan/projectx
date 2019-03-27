@@ -1,0 +1,31 @@
+uuid: 115a5a9d-bf60-480e-8cd6-bfb480782872
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nrs_rt_list
+    - node.type.nrs_webform
+    - taxonomy.vocabulary.nrs_rt_list
+_core:
+  default_config_hash: 53afqneU-0mIt0oCytBIWxmMaIaU1BC08F87TsN8DTw
+id: node.nrs_webform.field_nrs_rt_list
+field_name: field_nrs_rt_list
+entity_type: node
+bundle: nrs_webform
+label: 'RT List'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      nrs_rt_list: nrs_rt_list
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

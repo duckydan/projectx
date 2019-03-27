@@ -1,0 +1,16 @@
+uuid: 366e9c83-a0d0-4eea-87a4-3dc192348c37
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.federal_administrator
+  module:
+    - user
+_core:
+  default_config_hash: C9w16WK1UvkXwDisHiOD_HuLlK-m6SiXQgV868Sh_6w
+id: user_add_role_action.federal_administrator
+label: 'Add the Federal Administrator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: federal_administrator

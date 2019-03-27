@@ -1,0 +1,10 @@
+uuid: d8d3a8cb-3253-4879-b70a-5d1f80a20398
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BY51yDllqLD5YqWqDsBsFy5kJf22umWsaiziEHgswaw
+id: nrs_data
+label: 'NRS Data Status Comments'
+revision: 1
+description: ''

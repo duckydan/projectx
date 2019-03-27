@@ -1,0 +1,21 @@
+uuid: 5e328ee7-a007-43fc-90b4-a08205767295
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rt_duns
+    - node.type.nrs_rt_financial
+_core:
+  default_config_hash: 3HBt0CTLoMSoe1ouMzoD-cSNrCfZWi7yKyFKCny8DmE
+id: node.nrs_rt_financial.field_rt_duns
+field_name: field_rt_duns
+entity_type: node
+bundle: nrs_rt_financial
+label: '4a. DUNS Number'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,24 @@
+uuid: fe886cbe-9d90-40a2-a60f-e946da8d28e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: bytOw9juxa6bWRGPdJ1mIECKqeMVwhT4ECI-vzBiheU
+id: data_quality_checklist_edit_page
+label: 'Data Quality Checklist Edit Page'
+type: 'canonical_entities:node'
+pattern: '/rt/[node:field_state:entity:field_state_abbr]/[node:field_nrs_rt_program:entity:field_year]/dqc/edit'
+selection_criteria:
+  94f27316-c572-4401-b66e-b849f6d46131:
+    id: node_type
+    bundles:
+      nrs_rt_data_quality_checklist: nrs_rt_data_quality_checklist
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 94f27316-c572-4401-b66e-b849f6d46131
+selection_logic: and
+weight: -5
+relationships: {  }

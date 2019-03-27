@@ -1,0 +1,22 @@
+uuid: 44b89af2-50b7-47e9-b93b-552e4f3a036b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nrs_adminimal_theme
+_core:
+  default_config_hash: wyOgtsRkYPEbG96jq1ynKNevHUvJp01moIcfuGntdog
+id: nrs_adminimal_theme_messages
+theme: nrs_adminimal_theme
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

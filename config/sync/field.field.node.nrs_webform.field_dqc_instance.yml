@@ -1,0 +1,30 @@
+uuid: dd3bbfd8-2b7d-4d4d-ae6a-f5fe443f4215
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dqc_instance
+    - node.type.nrs_webform
+    - webform.webform.dqc_test
+_core:
+  default_config_hash: D7EQPBgcjUZLAMV_PTqic02Dw7yKpkmXF_ITS4gwz24
+id: node.nrs_webform.field_dqc_instance
+field_name: field_dqc_instance
+entity_type: node
+bundle: nrs_webform
+label: 'Data Quality Checklist Form'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform_submission'
+  handler_settings:
+    target_bundles:
+      dqc_test: dqc_test
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: dqc_test
+field_type: entity_reference

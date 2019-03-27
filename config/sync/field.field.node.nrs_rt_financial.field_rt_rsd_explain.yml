@@ -1,0 +1,23 @@
+uuid: afd5088c-8dc9-4448-9e44-2b2dd7fe958c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rt_rsd_explain
+    - node.type.nrs_rt_financial
+  module:
+    - text
+_core:
+  default_config_hash: 0W_Rf-XZ16DJXiwZYQv4VfI7GJUTqiIausUl6j15k2I
+id: node.nrs_rt_financial.field_rt_rsd_explain
+field_name: field_rt_rsd_explain
+entity_type: node
+bundle: nrs_rt_financial
+label: '9.  Please explain any increases, decreases, or new cash and in-kind sources reported in Boxes 7 or 8 since the previous year.'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

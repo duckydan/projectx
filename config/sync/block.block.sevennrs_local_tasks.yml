@@ -1,0 +1,32 @@
+uuid: 1baa8097-5742-473a-b4e4-6395b19b2426
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - sevennrs
+_core:
+  default_config_hash: I-_El516zytDma-ww2LdSiUDvmI8G1zK0mG4UBHi1bk
+id: sevennrs_local_tasks
+theme: sevennrs
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+      federal_user: federal_user
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

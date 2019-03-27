@@ -1,0 +1,16 @@
+uuid: cd421f04-199f-4073-be16-0f6f16333e24
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.state_user
+  module:
+    - user
+_core:
+  default_config_hash: _d2X0XHweosnOYX-0jX6nPkiCDrziXfwReE6UXrtftM
+id: user_add_role_action.state_user
+label: 'Add the State User role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: state_user

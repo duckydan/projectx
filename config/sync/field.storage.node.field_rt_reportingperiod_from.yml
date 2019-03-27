@@ -1,0 +1,22 @@
+uuid: d3bbe5ed-c073-4b38-a7b7-4beb56352dd4
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+_core:
+  default_config_hash: rpI7HEfdz35X6DFID5rW5Qz0tcuD69WMGKNqUX353OE
+id: node.field_rt_reportingperiod_from
+field_name: field_rt_reportingperiod_from
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

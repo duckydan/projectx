@@ -1,0 +1,34 @@
+uuid: c1544c90-364b-4492-8bb4-708632eb6f58
+langcode: en
+status: true
+dependencies:
+  module:
+    - amap
+    - system
+  theme:
+    - uswdsnrs
+_core:
+  default_config_hash: 8Z_lXEkBqbLlt0E14BhUaweJMGKWvlcEaHB45-3nIy4
+id: rt_states_map
+theme: uswdsnrs
+region: content
+weight: -2
+provider: null
+plugin: amap_block
+settings:
+  id: amap_block
+  label: 'RT States Map'
+  provider: amap
+  label_display: '0'
+  svg_url: /data/rt
+  svg_url_path: '0'
+  svg_eid_mn: field_state_abbr
+  svg_eid_class_mn: ''
+  svg_eid_style_mn: field_state_abbr_2
+  svg_eid_url_mn: field_state_abbr_1
+visibility:
+  request_path:
+    id: request_path
+    pages: /rt
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,21 @@
+uuid: d0f51e39-8f09-4fba-a670-944e579e1b56
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: otbCeZxkhyXrBKypePpxXsgD8nQKy77jmhG8Ttu8CME
+id: node.field_rt_ffr_remarks
+field_name: field_rt_ffr_remarks
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

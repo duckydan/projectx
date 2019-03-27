@@ -1,0 +1,12 @@
+uuid: bc310d0f-ce85-4a27-b012-1e5d1f61b15e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: GbcgcbWkqVKMXtcJuw4pUx_SIvKifQnAaXcfpK_Vnyo
+id: nrs
+label: nrs
+description: ''
+source_type: null
+module: null
+shared_configuration: null

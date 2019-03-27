@@ -1,11 +1,11 @@
-uuid: c9785718-ec74-41ff-8f70-fb6e7bd6da87
+uuid: f162a9a5-e526-423e-8aa3-c8222af7204f
 langcode: en
 status: true
 dependencies:
   module:
     - editor
 _core:
-  default_config_hash: hewPmBgni9jlDK_IjLxUx1HsTbinK-hdl0lOwjbteIY
+  default_config_hash: Fm2g1__tpfCOU-q32s1u0YsCgs2z8tCw2cjU9MfJT3s
 name: 'Full HTML'
 format: full_html
 weight: 1
@@ -22,15 +22,18 @@ filters:
     status: true
     weight: 9
     settings: {  }
-  filter_htmlcorrector:
-    id: filter_htmlcorrector
-    provider: filter
-    status: true
-    weight: 10
-    settings: {  }
   editor_file_reference:
     id: editor_file_reference
     provider: editor
     status: true
     weight: 11
     settings: {  }
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol type start> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <s> <sup> <sub> <img src alt data-entity-type data-entity-uuid data-align data-caption> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <hr> <p> <h1> <pre>'
+      filter_html_help: true
+      filter_html_nofollow: false

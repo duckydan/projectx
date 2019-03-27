@@ -1,0 +1,35 @@
+uuid: 4a35fbee-f3bc-4e90-98e0-3a017fa6d8ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nrs_table_comments
+    - node.type.nrs_rt_financial
+  module:
+    - comment
+_core:
+  default_config_hash: WI7KBa6W5B0jWkWI7dsuM6rCPt964AN-ZMPQcbamslY
+id: node.nrs_rt_financial.field_nrs_table_comments
+field_name: field_nrs_table_comments
+entity_type: node
+bundle: nrs_rt_financial
+label: Comments
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    status: 2
+    cid: 0
+    last_comment_timestamp: 0
+    last_comment_name: null
+    last_comment_uid: 0
+    comment_count: 0
+default_value_callback: ''
+settings:
+  default_mode: 1
+  per_page: 50
+  anonymous: 0
+  form_location: true
+  preview: 1
+field_type: comment

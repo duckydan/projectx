@@ -1,0 +1,28 @@
+uuid: 640f9c66-164f-4a03-a3e6-533629abd4b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - nrs_rt
+    - system
+  theme:
+    - nrs_adminimal_theme
+_core:
+  default_config_hash: SUN8IG_PHFc7UDtWwkkK1ouXuZvN-KV9RI238ecY7sg
+id: nrs_adminimal_theme_nrsreportingtablesjumpmenu
+theme: nrs_adminimal_theme
+region: content
+weight: -7
+provider: null
+plugin: rt_jump_menu_block
+settings:
+  id: rt_jump_menu_block
+  label: 'NRS reporting tables jump menu'
+  provider: nrs_rt
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/rt*'
+    negate: false
+    context_mapping: {  }

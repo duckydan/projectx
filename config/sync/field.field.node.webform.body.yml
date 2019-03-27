@@ -1,4 +1,4 @@
-uuid: d3093053-4dd6-4ce3-a353-69bd718618bf
+uuid: 29481057-2054-43bd-9638-1cd3ea4722e2
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: '-Qu0UyzQ0jD4TDYq8fOasS-D-vGd3gSwzi15PzRJUD4'
+  default_config_hash: xz8yCq3GqbepbHw5kCP3R6gloZFK2Xtjvn8dU4foj7A
 id: node.webform.body
 field_name: body
 entity_type: node

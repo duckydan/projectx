@@ -1,0 +1,20 @@
+uuid: e73f531a-e1aa-46e2-a3ae-474f432aa5a6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nrs_adminimal_theme
+_core:
+  default_config_hash: kbVmG2ct5TvMyD7uerCtZQxdABD_ZBEubkXR3qym-NA
+id: nrs_adminimal_theme_local_actions
+theme: nrs_adminimal_theme
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
